@@ -38,4 +38,5 @@
 
 > My IIIF collection
 
+- [iiif-loader](https://iramat.github.io/iramat-apps/iiif/webservices/iiiif-loader/): Documentation du webservice
 
