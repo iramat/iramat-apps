@@ -1,0 +1,35 @@
+# My Docs
+
+> Congrats on setting up a new Doks project!
+
+- [Page not found](https://iramat.github.io/iramat-apps/404/): The page you're looking for doesn’t exist or has moved. Check the URL, use the navigation to browse sections, or return to the homepage.
+- [Privacy Policy](https://iramat.github.io/iramat-apps/privacy/): Learn how we collect, use, and protect your personal data, what rights you have over your information, and how to contact us with questions.
+- [Blog](https://iramat.github.io/iramat-apps/blog/): Read product updates, release highlights, and practical tips that explain what’s new, why it matters, and how to get the most value from this project.
+- [Docs](https://iramat.github.io/iramat-apps/docs/): Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
+
+## Blog
+
+> Read product updates, release highlights, and practical tips that explain what’s new, why it matters, and how to get the most value from this project.
+
+- [Example Post](https://iramat.github.io/iramat-apps/blog/example-post/): Learn how to write clear, structured product update posts that explain what changed, why it matters, and how users can successfully adopt new features.
+
+## Docs
+
+> Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
+
+- [Guides](https://iramat.github.io/iramat-apps/docs/guides/): Explore step-by-step guides that walk you through common tasks, from setup to advanced workflows, helping you learn and use this project with confidence.
+- [Reference](https://iramat.github.io/iramat-apps/docs/reference/): Find detailed, structured reference pages that explain concepts, configuration options, and behavior so you can quickly look up precise information as you work.
+- [Resources](https://iramat.github.io/iramat-apps/docs/resources/): Discover curated links to official docs, tools, templates, and learning materials that help you deepen your knowledge and get more from this project.
+
+### Guides
+
+> Explore step-by-step guides that walk you through common tasks, from setup to advanced workflows, helping you learn and use this project with confidence.
+
+- [Example Guide](https://iramat.github.io/iramat-apps/docs/guides/example-guide/): Learn how to structure clear, task-focused guides that walk users through real workflows step by step, improving documentation usability and success.
+
+### Reference
+
+> Find detailed, structured reference pages that explain concepts, configuration options, and behavior so you can quickly look up precise information as you work.
+
+- [Example Reference](https://iramat.github.io/iramat-apps/docs/reference/example-reference/): Learn how to design concise, comprehensive reference pages that document concepts, options, and behavior clearly so users can quickly find exact answers.
+
