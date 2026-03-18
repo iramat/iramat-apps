@@ -38,5 +38,6 @@
 
 > My IIIF collection
 
+- [iiif-compare](https://iramat.github.io/iramat-apps/iiif/webservices/iiif-compare/): Documentation du webservice
 - [iiif-loader](https://iramat.github.io/iramat-apps/iiif/webservices/iiiif-loader/): Documentation du webservice
 
