@@ -18,26 +18,18 @@
 
 > Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
 
-- [Guides](https://iramat.github.io/iramat-apps/docs/guides/): Explore step-by-step guides that walk you through common tasks, from setup to advanced workflows, helping you learn and use this project with confidence.
-- [Reference](https://iramat.github.io/iramat-apps/docs/reference/): Find detailed, structured reference pages that explain concepts, configuration options, and behavior so you can quickly look up precise information as you work.
-- [Resources](https://iramat.github.io/iramat-apps/docs/resources/): Discover curated links to official docs, tools, templates, and learning materials that help you deepen your knowledge and get more from this project.
+- [Documentation](https://iramat.github.io/iramat-apps/docs/iiif/): Documentation sur le IIIF
 
-### Guides
+### Documentation
 
-> Explore step-by-step guides that walk you through common tasks, from setup to advanced workflows, helping you learn and use this project with confidence.
+> Documentation sur le IIIF
 
-- [Example Guide](https://iramat.github.io/iramat-apps/docs/guides/example-guide/): Learn how to structure clear, task-focused guides that walk users through real workflows step by step, improving documentation usability and success.
-
-### Reference
-
-> Find detailed, structured reference pages that explain concepts, configuration options, and behavior so you can quickly look up precise information as you work.
-
-- [Example Reference](https://iramat.github.io/iramat-apps/docs/reference/example-reference/): Learn how to design concise, comprehensive reference pages that document concepts, options, and behavior clearly so users can quickly find exact answers.
+- [Documentation sur le IIIF](https://iramat.github.io/iramat-apps/docs/iiif/documentation-sur-le-iiif/): Documentation du webservice
 
 ## IIIF
 
 > My IIIF collection
 
-- [iiif-compare](https://iramat.github.io/iramat-apps/iiif/webservices/iiif-compare/): Documentation du webservice
-- [iiif-loader](https://iramat.github.io/iramat-apps/iiif/webservices/iiiif-loader/): Documentation du webservice
+- [iiif-compare](https://iramat.github.io/iramat-apps/iiif/iiif-compare/): Documentation du webservice
+- [iiif-loader](https://iramat.github.io/iramat-apps/iiif/iiiif-loader/): Documentation du webservice
 

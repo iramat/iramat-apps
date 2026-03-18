@@ -2,8 +2,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>http://localhost:1313/docs/guides/example-guide/</loc>
-      <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+      <loc>http://localhost:1313/iiif/doc/documentation/</loc>
+      <lastmod>2026-02-17T13:03:14+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
