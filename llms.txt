@@ -1,4 +1,4 @@
-# My Docs
+# Iramat-apps
 
 > Congrats on setting up a new Doks project!
 
@@ -6,6 +6,7 @@
 - [Privacy Policy](https://iramat.github.io/iramat-apps/privacy/): Learn how we collect, use, and protect your personal data, what rights you have over your information, and how to contact us with questions.
 - [Blog](https://iramat.github.io/iramat-apps/blog/): Read product updates, release highlights, and practical tips that explain what’s new, why it matters, and how to get the most value from this project.
 - [Docs](https://iramat.github.io/iramat-apps/docs/): Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
+- [IIIF](https://iramat.github.io/iramat-apps/iiif/): My IIIF collection
 
 ## Blog
 
@@ -32,4 +33,9 @@
 > Find detailed, structured reference pages that explain concepts, configuration options, and behavior so you can quickly look up precise information as you work.
 
 - [Example Reference](https://iramat.github.io/iramat-apps/docs/reference/example-reference/): Learn how to design concise, comprehensive reference pages that document concepts, options, and behavior clearly so users can quickly find exact answers.
+
+## IIIF
+
+> My IIIF collection
+
 
