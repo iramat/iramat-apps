@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>webservices IIIF on Iramat-apps</title>
+    <link>http://localhost:1313/iiif/websrv/</link>
+    <description>Recent content in webservices IIIF on Iramat-apps</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2026 Thulite</copyright>
+    <lastBuildDate>Tue, 17 Feb 2026 13:03:14 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/iiif/websrv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iiif-compare-OK</title>
+      <link>http://localhost:1313/iiif/websrv/file3/</link>
+      <pubDate>Tue, 17 Feb 2026 13:03:14 +0100</pubDate>
+      <guid>http://localhost:1313/iiif/websrv/file3/</guid>
+      <description>&lt;p&gt;Ce webservice est accessible ici: &#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link link--text&#34; href=&#34;https://iramat-apps.cnrs.fr/iiif-compare/&#34; rel=&#34;external&#34;&gt;https://iramat-apps.cnrs.fr/iiif-compare/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>iiif-loader-OK</title>
+      <link>http://localhost:1313/iiif/websrv/file4/</link>
+      <pubDate>Tue, 17 Feb 2026 13:03:14 +0100</pubDate>
+      <guid>http://localhost:1313/iiif/websrv/file4/</guid>
+      <description>&lt;p&gt;Ce webservice est accessible ici: &#xD;&#xA;&#xD;&#xA;&lt;a class=&#34;link link--text&#34; href=&#34;https://iramat-apps.cnrs.fr/iiif-loader/&#34; rel=&#34;external&#34;&gt;https://iramat-apps.cnrs.fr/iiif-loader/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;img width=&#34;700&#34; alt=&#34;Image&#34; src=&#34;https://github.com/user-attachments/assets/0f51f493-e5d1-4922-a9f0-bb9aaf7f33ac&#34; /&gt;&#xD;&#xA;&lt;p&gt;👉 Contacter &#xD;&#xA;&#xD;&#xA;&lt;script nonce=&#34;dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=&#34;&gt;userName=&#34;thomas.huet&#34;,domainName=&#34;cnrs&#34;,domainExtension=&#34;fr&#34;,document.write(&#34;&lt;a href=&#39;mailto:&#34;+userName+&#34;@&#34;+domainName+&#34;.&#34;+domainExtension+&#34;&#39;&gt;&#34;+userName+&#34;@&#34;+domainName+&#34;.&#34;+domainExtension+&#34;&lt;/a&gt;&#34;);&lt;/script&gt;&lt;noscript&gt;thomas.huet at cnrs dot fr&lt;/noscript&gt;&#xD;&#xA;&#xD;&#xA;   pour avoir le &lt;strong&gt;mot de passe&lt;/strong&gt; et pouvoir mettre en ligne vos images&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

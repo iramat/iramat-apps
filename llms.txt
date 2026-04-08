@@ -5,7 +5,7 @@
 - [Page not found](https://iramat.github.io/iramat-apps/404/): The page you're looking for doesn’t exist or has moved. Check the URL, use the navigation to browse sections, or return to the homepage.
 - [Privacy Policy](https://iramat.github.io/iramat-apps/privacy/): Learn how we collect, use, and protect your personal data, what rights you have over your information, and how to contact us with questions.
 - [Blog](https://iramat.github.io/iramat-apps/blog/): Read product updates, release highlights, and practical tips that explain what’s new, why it matters, and how to get the most value from this project.
-- [Docs](https://iramat.github.io/iramat-apps/docs/): Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
+- [Documentation générale](https://iramat.github.io/iramat-apps/docs/): Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
 - [IIIF](https://iramat.github.io/iramat-apps/iiif/): My IIIF collection
 
 ## Blog
@@ -14,22 +14,40 @@
 
 - [Example Post](https://iramat.github.io/iramat-apps/blog/example-post/): Learn how to write clear, structured product update posts that explain what changed, why it matters, and how users can successfully adopt new features.
 
-## Docs
+## Documentation générale
 
 > Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
 
-- [Documentation](https://iramat.github.io/iramat-apps/docs/iiif/): Documentation sur le IIIF
+- [Pile logicielle](https://iramat.github.io/iramat-apps/docs/stack/): Documentation sur le IIIF
 
-### Documentation
+### Pile logicielle
 
 > Documentation sur le IIIF
 
-- [Documentation sur le IIIF](https://iramat.github.io/iramat-apps/docs/iiif/documentation-sur-le-iiif/): Documentation du webservice
+- [Documentation sur la pile logicielle](https://iramat.github.io/iramat-apps/docs/stack/documentation-sur-la-pile-logicielle/): Documentation du webservice
 
 ## IIIF
 
 > My IIIF collection
 
-- [iiif-compare](https://iramat.github.io/iramat-apps/iiif/iiif-compare/): Documentation du webservice
-- [iiif-loader](https://iramat.github.io/iramat-apps/iiif/iiiif-loader/): Documentation du webservice
+- [Documentation IIIF](https://iramat.github.io/iramat-apps/iiif/doc/): My IIIF collection
+- [Liste des viewers IIIF](https://iramat.github.io/iramat-apps/iiif/list/): My IIIF collection
+- [Webservices IIIF](https://iramat.github.io/iramat-apps/iiif/webservices/): My IIIF collection
+
+### Documentation IIIF
+
+> My IIIF collection
+
+
+### Liste des viewers IIIF
+
+> My IIIF collection
+
+
+### Webservices IIIF
+
+> My IIIF collection
+
+- [iiif-compare](https://iramat.github.io/iramat-apps/iiif/webservices/iiif-compare/): Documentation du webservice
+- [iiif-loader](https://iramat.github.io/iramat-apps/iiif/webservices/iiif-loader/): Documentation du webservice
 
