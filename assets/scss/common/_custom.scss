@@ -1,1 +1,18 @@
 // Put your custom SCSS code here
+.iiif-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.iiif-column {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.iiif-column a {
+  text-decoration: none;
+  font-weight: 600;
+}

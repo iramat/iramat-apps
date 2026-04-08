@@ -29,15 +29,45 @@
   url = "/tutorial/lorem/"
 
 [[main]]
-  name = "Docs"
-  url = "/docs/guides/example-guide/"
+  name = "IIIF"
+  url = "/iiif/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
+# [[menu.main]]
+#     name = "IIIF"
+#     identifier = "iiif"
+#     url = "/iiif/"
+#     weight = 10
+
+# [[menu.main]]
+#     name = "Non-Websrv"
+#     parent = "iiif"
+#     url = "/iiif/non_websrv/"
+#     weight = 1
+
+# [[menu.main]]
+#     name = "Websrv"
+#     parent = "iiif"
+#     url = "/iiif/websrv/"
+#     weight = 2
+
 [[main]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 30
+  name = "Documentation générale"
+  url = "/docs/"
+# url = "/docs/1.0/prologue/introduction/"
+  weight = 20
+
+# [[main]]
+#   name = "Documentation"
+#   url = "/iiif/websrv/"
+# # url = "/docs/1.0/prologue/introduction/"
+#   weight = 30
+
+# [[main]]
+#   name = "Blog"
+#   url = "/blog/"
+#   weight = 30
 
 # [[social]]
 #   name = "Twitter"

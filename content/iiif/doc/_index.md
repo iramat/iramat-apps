@@ -1,6 +1,6 @@
 ---
-title: "Documentation générale"
-description: "Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content."
+title: "Documentation IIIF"
+description: "My IIIF collection"
 summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
@@ -14,7 +14,9 @@ params:
     canonical: "" # custom canonical URL (optional)
     robots: "" # custom robot tags (optional)
   section:
-    title: "Documentation générale"
+    title: "Documentation"
     iconName: "book"
-    startUrl: "/docs/stack/"
+    startUrl: "/docs/guides/example-guide/"
 ---
+
+Lorem Ipsum

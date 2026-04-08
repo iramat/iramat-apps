@@ -1,11 +1,11 @@
 ---
-title: "Reference"
-description: "Find detailed, structured reference pages that explain concepts, configuration options, and behavior so you can quickly look up precise information as you work."
+title: "Pile logicielle"
+description: "Documentation sur le IIIF"
 summary: ""
-date: 2023-09-07T16:12:37+02:00
-lastmod: 2023-09-07T16:12:37+02:00
+date: 2023-09-07T16:12:03+02:00
+lastmod: 2023-09-07T16:12:03+02:00
 draft: false
-weight: 900
+weight: 999
 toc: true
 sidebar:
   collapsed: true
@@ -15,4 +15,10 @@ params:
     description: "" # custom description (recommended)
     canonical: "" # custom canonical URL (optional)
     robots: "" # custom robot tags (optional)
+  section:
+    title: "Documentation"
+    iconName: "book"
+    startUrl: "/docs/guides/example-guide/"
 ---
+
+Lorem Ipsum Lorem
