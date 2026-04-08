@@ -2,8 +2,6 @@
 
 Ce webservice est accessible ici: <https://iramat-apps.cnrs.fr/iiif-loader/> 
 
-<img width="700" alt="Image" src="https://github.com/user-attachments/assets/0f51f493-e5d1-4922-a9f0-bb9aaf7f33ac" />
-
 👉 Contacter <thomas.huet@cnrs.fr> pour avoir le **mot de passe** et pouvoir mettre en ligne vos images
 
 ### Structuration
