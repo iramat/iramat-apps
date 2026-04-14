@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d3cb80a934c6bfcacb6232449c0235ce {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    
+                    <style>
+                        .foliumtooltip {
+                            
+                        }
+                       .foliumtooltip table{
+                            margin: auto;
+                        }
+                        .foliumtooltip tr{
+                            text-align: left;
+                        }
+                        .foliumtooltip th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d3cb80a934c6bfcacb6232449c0235ce" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d3cb80a934c6bfcacb6232449c0235ce = L.map(
+                "map_d3cb80a934c6bfcacb6232449c0235ce",
+                {
+                    center: [20.80194444444445, 34.8373611111111],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_d3cb80a934c6bfcacb6232449c0235ce);
+
+            
+
+        
+    
+            var tile_layer_3fd2795c28ee4f01706f11014266ce4b = L.tileLayer(
+                "https://mt1.google.com/vt/lyrs=s\u0026x={x}\u0026y={y}\u0026z={z}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Google",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3fd2795c28ee4f01706f11014266ce4b.addTo(map_d3cb80a934c6bfcacb6232449c0235ce);
+        
+    
+
+        function geo_json_3c2487996f08651141b0fafd04e65591_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_3c2487996f08651141b0fafd04e65591 = L.geoJson(null, {
+                onEachFeature: geo_json_3c2487996f08651141b0fafd04e65591_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_3c2487996f08651141b0fafd04e65591_add (data) {
+            geo_json_3c2487996f08651141b0fafd04e65591
+                .addData(data);
+        }
+            geo_json_3c2487996f08651141b0fafd04e65591_add({"bbox": [33.0508, 19.6222, 36.6239, 21.9817], "crs": {"properties": {"name": "urn:ogc:def:crs:EPSG::4326"}, "type": "name"}, "features": [{"bbox": [36.1047, 21.9078, 36.1047, 21.9078], "geometry": {"coordinates": [36.1047, 21.9078], "type": "Point"}, "geometry_name": "geom", "id": "sites.Mikraff-1", "properties": {"group_site": "The Red Sea Hills", "notes": "20th century mine.", "num_biblio": "6.1.4", "x": 36.1047222222222, "y": 21.9077777777778}, "type": "Feature"}, {"bbox": [36.0458, 21.9817, 36.0458, 21.9817], "geometry": {"coordinates": [36.0458, 21.9817], "type": "Point"}, "geometry_name": "geom", "id": "sites.Shishaiteb", "properties": {"group_site": "The Red Sea Hills", "notes": "id. Shishutaib", "num_biblio": "6.1.1", "x": 36.0458333333333, "y": 21.9816666666667}, "type": "Feature"}, {"bbox": [33.0508, 21.9806, 33.0508, 21.9806], "geometry": {"coordinates": [33.0508, 21.9806], "type": "Point"}, "geometry_name": "geom", "id": "sites.Shishaiteb-South", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.2", "x": 33.0508333333333, "y": 21.9805555555556}, "type": "Feature"}, {"bbox": [36.1269, 21.9333, 36.1269, 21.9333], "geometry": {"coordinates": [36.1269, 21.9333], "type": "Point"}, "geometry_name": "geom", "id": "sites.Oyo", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.3", "x": 36.1269444444444, "y": 21.9333333333333}, "type": "Feature"}, {"bbox": [36.1017, 21.91, 36.1017, 21.91], "geometry": {"coordinates": [36.1017, 21.91], "type": "Point"}, "geometry_name": "geom", "id": "sites.Mikraff-2", "properties": {"group_site": "The Red Sea Hills", "notes": "Arab wadiworking settlement", "num_biblio": "6.1.4", "x": 36.1016666666667, "y": 21.91}, "type": "Feature"}, {"bbox": [36.4811, 21.2992, 36.4811, 21.2992], "geometry": {"coordinates": [36.4811, 21.2992], "type": "Point"}, "geometry_name": "geom", "id": "sites.Hangul", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.5", "x": 36.4811111111111, "y": 21.2991666666667}, "type": "Feature"}, {"bbox": [36.3775, 21.0986, 36.3775, 21.0986], "geometry": {"coordinates": [36.3775, 21.0986], "type": "Point"}, "geometry_name": "geom", "id": "sites.Ohaff", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.6", "x": 36.3775, "y": 21.0986111111111}, "type": "Feature"}, {"bbox": [36.3167, 21.0503, 36.3167, 21.0503], "geometry": {"coordinates": [36.3167, 21.0503], "type": "Point"}, "geometry_name": "geom", "id": "sites.Gebeit-1", "properties": {"group_site": "The Red Sea Hills", "notes": "Bishop\u0027s house", "num_biblio": "6.1.7", "x": 36.3166666666667, "y": 21.0502777777778}, "type": "Feature"}, {"bbox": [36.3361, 21.075, 36.3361, 21.075], "geometry": {"coordinates": [36.3361, 21.075], "type": "Point"}, "geometry_name": "geom", "id": "sites.Gebeit-2", "properties": {"group_site": "The Red Sea Hills", "notes": "Eastern New Kingdom settlement, wadi centre", "num_biblio": "6.1.7", "x": 36.3361111111111, "y": 21.075}, "type": "Feature"}, {"bbox": [36.3161, 21.0644, 36.3161, 21.0644], "geometry": {"coordinates": [36.3161, 21.0644], "type": "Point"}, "geometry_name": "geom", "id": "sites.Gebeit-3", "properties": {"group_site": "The Red Sea Hills", "notes": "Early Arab settlement", "num_biblio": "6.1.7", "x": 36.3161111111111, "y": 21.0644444444444}, "type": "Feature"}, {"bbox": [36.2119, 20.5275, 36.2119, 20.5275], "geometry": {"coordinates": [36.2119, 20.5275], "type": "Point"}, "geometry_name": "geom", "id": "sites.Gabatilo", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.8", "x": 36.2119444444444, "y": 20.5275}, "type": "Feature"}, {"bbox": [36.4136, 20.5089, 36.4136, 20.5089], "geometry": {"coordinates": [36.4136, 20.5089], "type": "Point"}, "geometry_name": "geom", "id": "sites.Nafirdeib", "properties": {"group_site": "The Red Sea Hills", "notes": "id. Lakobdog", "num_biblio": "6.1.9", "x": 36.4136111111111, "y": 20.5088888888889}, "type": "Feature"}, {"bbox": [36.0272, 20.195, 36.0272, 20.195], "geometry": {"coordinates": [36.0272, 20.195], "type": "Point"}, "geometry_name": "geom", "id": "sites.Rigag Sageib", "properties": {"group_site": "The Red Sea Hills", "notes": "id. Rigag Hindeb, Ragaghundab", "num_biblio": "6.1.10", "x": 36.0272222222222, "y": 20.195}, "type": "Feature"}, {"bbox": [35.6494, 20.0128, 35.6494, 20.0128], "geometry": {"coordinates": [35.6494, 20.0128], "type": "Point"}, "geometry_name": "geom", "id": "sites.Shikryai", "properties": {"group_site": "The Red Sea Hills", "notes": "id. Serakoit", "num_biblio": "6.1.11", "x": 35.6494444444444, "y": 20.0127777777778}, "type": "Feature"}, {"bbox": [36.5508, 19.7422, 36.5508, 19.7422], "geometry": {"coordinates": [36.5508, 19.7422], "type": "Point"}, "geometry_name": "geom", "id": "sites.Romi", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.12", "x": 36.5508333333333, "y": 19.7422222222222}, "type": "Feature"}, {"bbox": [36.5236, 19.7386, 36.5236, 19.7386], "geometry": {"coordinates": [36.5236, 19.7386], "type": "Point"}, "geometry_name": "geom", "id": "sites.Sheiteb", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.13", "x": 36.5236111111111, "y": 19.7386111111111}, "type": "Feature"}, {"bbox": [36.5683, 19.7158, 36.5683, 19.7158], "geometry": {"coordinates": [36.5683, 19.7158], "type": "Point"}, "geometry_name": "geom", "id": "sites.Shanobwan 1", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.14", "x": 36.5683333333333, "y": 19.7158333333333}, "type": "Feature"}, {"bbox": [36.5506, 19.7158, 36.5506, 19.7158], "geometry": {"coordinates": [36.5506, 19.7158], "type": "Point"}, "geometry_name": "geom", "id": "sites.Shanobwan 2", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.15", "x": 36.5505555555556, "y": 19.7158333333333}, "type": "Feature"}, {"bbox": [36.6239, 19.6639, 36.6239, 19.6639], "geometry": {"coordinates": [36.6239, 19.6639], "type": "Point"}, "geometry_name": "geom", "id": "sites.Selobit 1", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.16", "x": 36.6238888888889, "y": 19.6638888888889}, "type": "Feature"}, {"bbox": [36.6197, 19.6581, 36.6197, 19.6581], "geometry": {"coordinates": [36.6197, 19.6581], "type": "Point"}, "geometry_name": "geom", "id": "sites.Selobit 2", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.17", "x": 36.6197222222222, "y": 19.6580555555556}, "type": "Feature"}, {"bbox": [36.6217, 19.6547, 36.6217, 19.6547], "geometry": {"coordinates": [36.6217, 19.6547], "type": "Point"}, "geometry_name": "geom", "id": "sites.Miradaab", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.18", "x": 36.6216666666667, "y": 19.6547222222222}, "type": "Feature"}, {"bbox": [36.6044, 19.6264, 36.6044, 19.6264], "geometry": {"coordinates": [36.6044, 19.6264], "type": "Point"}, "geometry_name": "geom", "id": "sites.Abidoibid", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.20", "x": 36.6044444444444, "y": 19.6263888888889}, "type": "Feature"}, {"bbox": [36.4903, 19.6222, 36.4903, 19.6222], "geometry": {"coordinates": [36.4903, 19.6222], "type": "Point"}, "geometry_name": "geom", "id": "sites.Romeib", "properties": {"group_site": "The Red Sea Hills", "notes": null, "num_biblio": "6.1.21", "x": 36.4902777777778, "y": 19.6222222222222}, "type": "Feature"}], "numberMatched": 23, "numberReturned": 23, "timeStamp": "2026-04-14T07:34:36.014Z", "totalFeatures": 23, "type": "FeatureCollection"});
+        geo_json_3c2487996f08651141b0fafd04e65591.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+    geo_json_3c2487996f08651141b0fafd04e65591.bindTooltip(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature => {
+        if (feature === null) {
+            return '';
+        } else if (typeof(feature)=='object') {
+            return JSON.stringify(feature);
+        } else {
+            return feature;
+        }
+    }
+    let fields = ["y", "x", "num_biblio", "group_site", "notes"];
+    let aliases = ["y", "x", "num_biblio", "group_site", "notes"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i]}</th>
+            
+            <td>${handleObject(layer.feature.properties[v])}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{
+  "sticky": true,
+  "className": "foliumtooltip",
+});
+                     
+    
+            geo_json_3c2487996f08651141b0fafd04e65591.addTo(map_d3cb80a934c6bfcacb6232449c0235ce);
+        
+    
+            map_d3cb80a934c6bfcacb6232449c0235ce.fitBounds(
+                [[19.6222222222222, 33.0508333333333], [21.9816666666667, 36.6238888888889]],
+                {}
+            );
+        
+    
+            var layer_control_7108d58d4ba55d3e39429b538e8280f7_layers = {
+                base_layers : {
+                    "Google Satellite" : tile_layer_3fd2795c28ee4f01706f11014266ce4b,
+                },
+                overlays :  {
+                    "patrimin:sites" : geo_json_3c2487996f08651141b0fafd04e65591,
+                },
+            };
+            let layer_control_7108d58d4ba55d3e39429b538e8280f7 = L.control.layers(
+                layer_control_7108d58d4ba55d3e39429b538e8280f7_layers.base_layers,
+                layer_control_7108d58d4ba55d3e39429b538e8280f7_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_d3cb80a934c6bfcacb6232449c0235ce);
+
+        
+</script>
+</html>

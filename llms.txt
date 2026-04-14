@@ -6,6 +6,7 @@
 - [Privacy Policy](https://iramat.github.io/iramat-apps/privacy/): Learn how we collect, use, and protect your personal data, what rights you have over your information, and how to contact us with questions.
 - [Blog](https://iramat.github.io/iramat-apps/blog/): Read product updates, release highlights, and practical tips that explain what’s new, why it matters, and how to get the most value from this project.
 - [Documentation générale](https://iramat.github.io/iramat-apps/docs/): Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
+- [GeoServer](https://iramat.github.io/iramat-apps/geoserver/): My IIIF collection
 - [IIIF](https://iramat.github.io/iramat-apps/iiif/): My IIIF collection
 
 ## Blog
@@ -26,11 +27,30 @@
 
 - [Documentation sur la pile logicielle](https://iramat.github.io/iramat-apps/docs/stack/documentation-sur-la-pile-logicielle/): Documentation du webservice
 
+## GeoServer
+
+> My IIIF collection
+
+- [Documentation GeoServer](https://iramat.github.io/iramat-apps/geoserver/doc/): My IIIF collection
+- [Exemple d'usages du GeoServer](https://iramat.github.io/iramat-apps/geoserver/exemples/): My IIIF collection
+
+### Documentation GeoServer
+
+> My IIIF collection
+
+
+### Exemple d'usages du GeoServer
+
+> My IIIF collection
+
+- [Données vectorielles](https://iramat.github.io/iramat-apps/geoserver/exemples/wfs/): My Données Vecto collection is something wild
+
 ## IIIF
 
 > My IIIF collection
 
 - [Documentation IIIF](https://iramat.github.io/iramat-apps/iiif/doc/): My IIIF collection
+- [Exemples de IIIF](https://iramat.github.io/iramat-apps/iiif/exemples/): My IIIF collection
 - [Liste des viewers IIIF](https://iramat.github.io/iramat-apps/iiif/list/): My IIIF collection
 - [Webservices IIIF](https://iramat.github.io/iramat-apps/iiif/webservices/): My IIIF collection
 
@@ -38,6 +58,14 @@
 
 > My IIIF collection
 
+
+### Exemples de IIIF
+
+> My IIIF collection
+
+- [Collection](https://iramat.github.io/iramat-apps/iiif/exemples/collection/): My IIIF collection
+- [Compare](https://iramat.github.io/iramat-apps/iiif/exemples/compare/): My IIIF collection
+- [Séquence](https://iramat.github.io/iramat-apps/iiif/exemples/sequence/): My IIIF collection
 
 ### Liste des viewers IIIF
 
