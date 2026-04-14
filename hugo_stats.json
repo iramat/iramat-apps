@@ -119,6 +119,11 @@
       "form-control",
       "form-control-lg",
       "fs-5",
+      "geoserver",
+      "gs-column",
+      "gs-columns",
+      "gs-intro",
+      "gs-section",
       "h-auto",
       "h3",
       "h4",
@@ -250,6 +255,7 @@
       "toc-mobile-sticky",
       "visually-hidden",
       "w-100",
+      "wide-frame",
       "wrap"
     ],
     "ids": [

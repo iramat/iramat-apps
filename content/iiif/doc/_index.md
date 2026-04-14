@@ -19,4 +19,4 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Lorem Ipsum
+Les images IIIF hebergées à l'IRAMAT, classées par `project-collection`

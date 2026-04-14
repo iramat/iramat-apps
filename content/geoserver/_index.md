@@ -1,6 +1,7 @@
 ---
-title: "Webservices IIIF"
+title: "GeoServer"
 description: "My IIIF collection"
+layout: docs
 summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
@@ -19,4 +20,4 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Le webservice `iiif-compare` prend des `info.json` en entrée, ces derniers doivent donc être créés en amont (avec `iiif-loader` par exemple)
+Le _Map server_ GeoServer permet de partager et modifier des données géographiques (cartes _raster_, fichiers LiDAR, shapefiles, etc.) 

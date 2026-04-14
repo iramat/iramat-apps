@@ -34,6 +34,19 @@
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
+[[main]]
+  name = "GeoServer"
+  url = "/geoserver/"
+# url = "/docs/1.0/prologue/introduction/"
+  weight = 20
+
+[[main]]
+  name = "Documentation générale"
+  url = "/docs/"
+# url = "/docs/1.0/prologue/introduction/"
+  weight = 30
+
+
 # [[menu.main]]
 #     name = "IIIF"
 #     identifier = "iiif"
@@ -52,11 +65,6 @@
 #     url = "/iiif/websrv/"
 #     weight = 2
 
-[[main]]
-  name = "Documentation générale"
-  url = "/docs/"
-# url = "/docs/1.0/prologue/introduction/"
-  weight = 20
 
 # [[main]]
 #   name = "Documentation"

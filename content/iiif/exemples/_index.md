@@ -1,13 +1,15 @@
 ---
-title: "Webservices IIIF"
+title: "Exemples de IIIF"
 description: "My IIIF collection"
 summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
 draft: false
 weight: 999
+layout: docs
 toc: true
 params:
+  fullwidth: true
   seo:
     title: "" # custom title (optional)
     description: "" # custom description (recommended)
@@ -19,4 +21,4 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Le webservice `iiif-compare` prend des `info.json` en entrée, ces derniers doivent donc être créés en amont (avec `iiif-loader` par exemple)
+Ces exemples ont été réalisés avec les webservices IIIF

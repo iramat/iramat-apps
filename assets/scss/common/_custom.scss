@@ -1,4 +1,15 @@
 // Put your custom SCSS code here
+.wide-frame {
+  width: 80vw;
+  margin-left: calc(50% - 40vw);
+}
+
+.wide-frame iframe {
+  width: 100%;
+  height: 1000px;
+  border: none;
+}
+
 .iiif-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;

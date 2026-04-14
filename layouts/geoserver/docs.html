@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <article class="gs-section">
+    <div class="gs-intro">
+      {{ .Content }}
+    </div>
+
+    {{ $sections := .Sections }}
+    {{ if $sections }}
+      <div class="gs-columns">
+        {{ range $sections.ByTitle }}
+          <div class="gs-column">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </article>
+{{ end }}
