@@ -19,13 +19,20 @@
 
 > Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
 
-- [Pile logicielle](https://iramat.github.io/iramat-apps/docs/stack/): Documentation sur le IIIF
+- [Backend](https://iramat.github.io/iramat-apps/docs/stack/): Documentation sur le IIIF
+- [Données](https://iramat.github.io/iramat-apps/docs/structure/): Documentation sur le IIIF
 
-### Pile logicielle
+### Backend
 
 > Documentation sur le IIIF
 
-- [Documentation sur la pile logicielle](https://iramat.github.io/iramat-apps/docs/stack/documentation-sur-la-pile-logicielle/): Documentation du webservice
+- [Pile logicielle](https://iramat.github.io/iramat-apps/docs/stack/pile-logicielle/): Documentation du webservice
+
+### Données
+
+> Documentation sur le IIIF
+
+- [Structuration](https://iramat.github.io/iramat-apps/docs/structure/structuration/): Documentation du webservice
 
 ## GeoServer
 
@@ -51,13 +58,14 @@
 
 - [Documentation IIIF](https://iramat.github.io/iramat-apps/iiif/doc/): My IIIF collection
 - [Exemples de IIIF](https://iramat.github.io/iramat-apps/iiif/exemples/): My IIIF collection
-- [Liste des viewers IIIF](https://iramat.github.io/iramat-apps/iiif/list/): My IIIF collection
+- [Liste des visualiseurs IIIF](https://iramat.github.io/iramat-apps/iiif/list/): My IIIF collection
 - [Webservices IIIF](https://iramat.github.io/iramat-apps/iiif/webservices/): My IIIF collection
 
 ### Documentation IIIF
 
 > My IIIF collection
 
+- [Metadata](https://iramat.github.io/iramat-apps/iiif/doc/metadata/): Métadonnées des images IIIF
 
 ### Exemples de IIIF
 
@@ -67,7 +75,7 @@
 - [Compare](https://iramat.github.io/iramat-apps/iiif/exemples/compare/): My IIIF collection
 - [Séquence](https://iramat.github.io/iramat-apps/iiif/exemples/sequence/): My IIIF collection
 
-### Liste des viewers IIIF
+### Liste des visualiseurs IIIF
 
 > My IIIF collection
 
