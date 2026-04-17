@@ -1,12 +1,12 @@
 ---
-title: "Collection"
+title: "Compare"
 description: "My IIIF collection"
 summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
 draft: false
 weight: 999
-toc: true
+toc: false
 params:
   fullwidth: true
   seo:
@@ -20,11 +20,12 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Collection des images IIIF du projet `ceramo`
+Superposition de deux images d'une même scorie (avant et après attaque Nital), projet: `TerriFer`, objet: `89.344.003.M10`
+
 <!-- <p align="center"> -->
 <div class="wide-frame">
   <iframe
-    src="https://iramat-apps.cnrs.fr/view/ceramo/"
+    src="https://iramat-apps.cnrs.fr/view/TerriFer/89.344.003.M10xx_compare.html"
     width="100%"
     height="1000"
     style="border:none;">

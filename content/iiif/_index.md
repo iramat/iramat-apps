@@ -20,4 +20,4 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Le IIIF (_International Image Interoperability Framework_) est un isostandard pour le partage des images HR sur le web. La documentation, et des exemples d'utilisation, sont présentés dans la [documentation](https://iramat.github.io/iramat-apps/iiif/doc/). Ci-dessous les webservices mis en place à l'IRAMAT pour convertir vos images en IIIF
+Le IIIF (_International Image Interoperability Framework_) est un isostandard pour le partage des images HR sur le web. Cette section présente la [documentation du IIIF](https://iramat.github.io/iramat-apps/iiif/doc/), des exemples de [fonctionnalités du IIIF](https://iramat.github.io/iramat-apps/iiif/exemples/), sont présentés dans la [documentation](https://iramat.github.io/iramat-apps/iiif/doc/), les [webservices](https://iramat.github.io/iramat-apps/iiif/webservices/) de l'IRAMAT permettant de faire tout ou partie de la mise en ligne d'image IIIF, ainsi que la liste des [visualiseurs IIIF](https://iramat.github.io/iramat-apps/iiif/list/) déjà existants. 

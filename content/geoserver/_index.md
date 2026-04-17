@@ -20,4 +20,5 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Le _Map server_ GeoServer permet de partager et modifier des données géographiques (cartes _raster_, fichiers LiDAR, shapefiles, etc.) 
+Le serveur cartographique (_map server_) GeoServer permet de mettre en ligne, de partager et de modifier des données géographiques (cartes _raster_, fichiers LiDAR, shapefiles, etc.). Son adresse est: 
+<a href="https://iramat-apps.cnrs.fr/geoserver/web/?0" target="_blank">https://iramat-apps.cnrs.fr/geoserver/web/?0</a>

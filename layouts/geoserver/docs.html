@@ -1,14 +1,14 @@
 {{ define "main" }}
-  <article class="gs-section">
-    <div class="gs-intro">
+  <article class="iiif-section">
+    <div class="iiif-intro">
       {{ .Content }}
     </div>
 
     {{ $sections := .Sections }}
     {{ if $sections }}
-      <div class="gs-columns">
+      <div class="iiif-columns">
         {{ range $sections.ByTitle }}
-          <div class="gs-column">
+          <div class="iiif-column">
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           </div>
         {{ end }}

@@ -1,5 +1,5 @@
 ---
-title: "Liste des viewers IIIF"
+title: "Liste des visualiseurs IIIF"
 description: "My IIIF collection"
 summary: ""
 date: 2023-09-07T16:12:03+02:00
@@ -19,11 +19,11 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Les images IIIF hebergées à l'IRAMAT, classée par `project-collection`
+Les visualiseurs IIIF (_IIIF viewers__ ou _Presentation API_) sont classés par `project-collection`. Par exemple `arl-x-s-1_side-1` est un objet du projet `acies`.
 
 <p align="center">
   <iframe
-    src="https://iramat-apps.cnrs.fr/portal/iiif-list.html"
+    src="https://iramat-apps.cnrs.fr/portal/html/iiif-list.html"
     width="100%"
     height="1000"
     style="border:none;">

@@ -1,13 +1,14 @@
 ---
-title: "Exemple d'usages du GeoServer"
+title: "Collection"
 description: "My IIIF collection"
-summary: ""
+summary: "Lorem Ipsum"
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
 draft: false
 weight: 999
-toc: true
+toc: false
 params:
+  fullwidth: true
   seo:
     title: "" # custom title (optional)
     description: "" # custom description (recommended)
@@ -19,5 +20,14 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Les données géographiques de ces exemples sont hebergée sur le GeoServer de l'IRAMAT:
--  <a href="https://iramat.github.io/iramat-apps/geoserver/exemples/wfs">WFS</a>
+Collection des images IIIF du projet `ceramo`
+<!-- <p align="center"> -->
+<div class="wide-frame">
+  <iframe
+    src="https://iramat-apps.cnrs.fr/view/ceramo/"
+    width="100%"
+    height="1000"
+    style="border:none;">
+  </iframe>
+</div>
+<!-- </p> -->

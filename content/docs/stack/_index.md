@@ -1,5 +1,5 @@
 ---
-title: "Pile logicielle"
+title: "Backend"
 description: "Documentation sur le IIIF"
 summary: ""
 date: 2023-09-07T16:12:03+02:00

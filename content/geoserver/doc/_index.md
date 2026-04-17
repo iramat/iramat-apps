@@ -19,4 +19,17 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Lorem Ipsum
+**GeoServer** est un serveur open source permettant de publier, partager et éditer des données géospatiales. Il facilite la **visualisation** et l’**analyse** de données SIG (Systèmes d’Information Géographique) issues de fouilles ou de prospections.
+
+## Fonctionnalités clés
+
+- **Publication** : Diffusez vos couches vectorielles (shapefiles, PostGIS) ou raster (images satellites, MNT).
+- **Interopérabilité** : Supporte les standards OGC (WMS, WFS, WCS) pour un partage simplifié.
+- **Cartographie** : Créez des cartes interactives via des interfaces comme OpenLayers ou QGIS.
+
+## Cas d’usage
+
+- Superposition de données de fouilles avec des cartes historiques.
+- Collaboration en temps réel sur des projets de terrain.
+
+**Prérequis** : Connaissances basiques en SIG et accès à un serveur.
