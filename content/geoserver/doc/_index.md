@@ -7,6 +7,7 @@ lastmod: 2023-09-07T16:12:03+02:00
 draft: false
 weight: 999
 toc: true
+layout: docs
 params:
   seo:
     title: "" # custom title (optional)
@@ -18,6 +19,8 @@ params:
     iconName: "book"
     startUrl: "/docs/guides/example-guide/"
 ---
+
+# Documentation GeoServer
 
 **GeoServer** est un serveur open source permettant de publier, partager et éditer des données géospatiales. Il facilite la **visualisation** et l’**analyse** de données SIG (Systèmes d’Information Géographique) issues de fouilles ou de prospections.
 

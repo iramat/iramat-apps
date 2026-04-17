@@ -7,8 +7,8 @@ lastmod: 2023-09-07T16:12:03+02:00
 draft: false
 weight: 999
 toc: false
+layout: "docs"
 params:
-  fullwidth: true
   seo:
     title: "" # custom title (optional)
     description: "" # custom description (recommended)
@@ -20,9 +20,16 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Une liste des **métadonnées XMP** lues par le IIIF est présentée dans le tableau [metadata.tsv](https://github.com/iramat/iramat-dev/blob/main/iiif/metadata.tsv). Editer les métadonnées de l'image dans **XnView**:
+# Metadata
+
+La liste des **métadonnées XMP** -- ou des **métadonnées IPTC étendues à l'XMP** (Iptc4xmpExt) -- lues par le webservice [iiif-loader](http://localhost:1313/iiif/webservices/iiif-loader/) est présentée dans le tableau ci-dessous. Editer les métadonnées de l'image dans **XnView**:
 
 {{< tsvtable "data/metadata.tsv" >}}
+<center>
+
+voir [code source](https://github.com/iramat/iramat-apps/blob/hugo-files/static/data/metadata.tsv) du tableau
+
+</center>
 
 #### onglet `Description`
 

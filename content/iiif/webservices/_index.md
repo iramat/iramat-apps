@@ -19,4 +19,4 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Le webservice `iiif-compare` prend des `info.json` en entrée, ces derniers doivent donc être créés en amont (avec `iiif-loader` par exemple)
+Lorem, Lorem, Lorem

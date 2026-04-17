@@ -19,5 +19,4 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Les données géographiques de ces exemples sont hebergée sur le GeoServer de l'IRAMAT:
--  <a href="https://iramat.github.io/iramat-apps/geoserver/exemples/wfs">WFS</a>
+Exemples de données "servies" par le GeoServer de l'IRAMAT (vectorielles: [WFS](https://iramat.github.io/iramat-apps/geoserver/exemples/wfs"); raster: [WMS]())
