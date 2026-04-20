@@ -14,7 +14,7 @@ Instance Ubuntu 22.04 LTS hébergée au Mésocentre de l'Université Paris-Sacla
 
 #### CHIPS
 
-La VM héberge une système de gestion de base de données (SGBD) PostgreSQL/Postgis. Ce SGBD héberge la base de données (BDD) CHIPS, présentée dans le [site web dédié](https://iramat.github.io/chips/)
+La VM héberge une système de gestion de base de données (SGBD) PostgreSQL/Postgis v17.5. Ce SGBD héberge la base de données (BDD) CHIPS, présentée dans le [site web dédié](https://iramat.github.io/chips/)
 
 #### Instance Numishare
 
@@ -48,7 +48,7 @@ flowchart TB
 
 ### IIIF
 
-La VM héberge un serveur d'image Cantaloupe et un _viewer_ Mirador (CDN). Des _webservices_ sont installés pour faciliter la transformation des images à l'isostandard IIIF... [lien](https://iramat.github.io/iramat-apps/iiif/)
+La VM héberge un serveur d'image Cantaloupe et un _viewer_ Mirador (CDN). Des _webservices_ Flask (v3.1.1) sont installés pour faciliter la transformation des images à l'isostandard IIIF... [lien](https://iramat.github.io/iramat-apps/iiif/)
 
 ### GeoServer
 
