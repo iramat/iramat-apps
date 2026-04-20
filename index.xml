@@ -8,7 +8,17 @@
  style="border:none;">
  &lt;/iframe>
 &lt;/div>
-&lt;!-- &lt;/p> --></description></item><item><title>Données vectorielles</title><link>https://iramat.github.io/iramat-apps/geoserver/exemples/wfs/</link><pubDate>Thu, 07 Sep 2023 16:12:03 +0200</pubDate><guid>https://iramat.github.io/iramat-apps/geoserver/exemples/wfs/</guid><description>&lt;p>Sites de production d&amp;rsquo;or&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> au format vectoriel et hebergés dans une base de données Postgis. Le service WFS (&lt;em>Web Feature Service&lt;/em>) qui fournit ces données est: 
+&lt;!-- &lt;/p> --></description></item><item><title>Données raster</title><link>https://iramat.github.io/iramat-apps/geoserver/exemples/wms/</link><pubDate>Thu, 07 Sep 2023 16:12:03 +0200</pubDate><guid>https://iramat.github.io/iramat-apps/geoserver/exemples/wms/</guid><description>&lt;h1 id="données-raster">Données raster&lt;/h1>
+&lt;p>Lorem&lt;/p>
+&lt;div class="wide-frame">
+ &lt;iframe
+ src="https://iramat-apps.cnrs.fr/portal/html/geoserver_wms_map_example.html"
+ width="100%"
+ height="700"
+ style="border:none;">
+ &lt;/iframe>
+&lt;/div></description></item><item><title>Données vectorielles</title><link>https://iramat.github.io/iramat-apps/geoserver/exemples/wfs/</link><pubDate>Thu, 07 Sep 2023 16:12:03 +0200</pubDate><guid>https://iramat.github.io/iramat-apps/geoserver/exemples/wfs/</guid><description>&lt;h1 id="données-vectorielles">Données vectorielles&lt;/h1>
+&lt;p>Sites de production d&amp;rsquo;or&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> au format vectoriel et hebergés dans une base de données Postgis. Le service WFS (&lt;em>Web Feature Service&lt;/em>) qui fournit ces données est: 
 
 &lt;a class="link link--text" href="https://iramat-apps.cnrs.fr/geoserver/ows?acceptversions=2.0.0" rel="external">https://iramat-apps.cnrs.fr/geoserver/ows?acceptversions=2.0.0&lt;/a>, couche &lt;code>patrimin:sites&lt;/code>, et peut être appelé depuis un SIG.&lt;/p></description></item><item><title>Metadata</title><link>https://iramat.github.io/iramat-apps/iiif/doc/metadata/</link><pubDate>Thu, 07 Sep 2023 16:12:03 +0200</pubDate><guid>https://iramat.github.io/iramat-apps/iiif/doc/metadata/</guid><description>Lorem Ipsum</description></item><item><title>Séquence</title><link>https://iramat.github.io/iramat-apps/iiif/exemples/sequence/</link><pubDate>Thu, 07 Sep 2023 16:12:03 +0200</pubDate><guid>https://iramat.github.io/iramat-apps/iiif/exemples/sequence/</guid><description>&lt;p>Séquence de deux images (droit et envers) d&amp;rsquo;une même monnaie, projet: &lt;code>Numismatic&lt;/code>, objet: &lt;code>1986.416&lt;/code>&lt;/p>
 &lt;!-- &lt;p align="center"> -->
@@ -30,8 +40,4 @@
 
 &lt;a class="link link--text" href="https://iramat-apps.cnrs.fr/iiif-loader/" rel="external">https://iramat-apps.cnrs.fr/iiif-loader/&lt;/a>&lt;/p>
 &lt;h2 id="description">Description&lt;/h2>
-&lt;p>Le webservice &lt;code>iiif-loader&lt;/code> permet de mettre une ligne et en IIIF des images en générant automatiquement le &lt;em>manifest&lt;/em> et le &lt;em>visualiseur&lt;/em> IIIF de ces images (API présentation). Les métadonnées des images sont lues à la volée lors de l&amp;rsquo;import de leur import.&lt;/p></description></item><item><title>Pile logicielle</title><link>https://iramat.github.io/iramat-apps/docs/stack/pile-logicielle/</link><pubDate>Tue, 17 Feb 2026 13:03:14 +0100</pubDate><guid>https://iramat.github.io/iramat-apps/docs/stack/pile-logicielle/</guid><description>&lt;p>Les applications de l&amp;rsquo;Iramat (Iramat-apps) décrites sur ce site web sont hebergées sur une machine virtuelle (&lt;em>Virtual Machine&lt;/em>, VM)&lt;/p>
-&lt;h2 id="github">GitHub&lt;/h2>
-&lt;p>Ce site web (Hugo), ainsi que des données de référence, les presentations Quarto, les discussions, etc. sont hébergées sur le GitHub de l&amp;rsquo;IRAMAT: 
-
-&lt;a class="link link--text" href="https://github.com/iramat" rel="external">https://github.com/iramat&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>Le webservice &lt;code>iiif-loader&lt;/code> permet de mettre une ligne et en IIIF des images en générant automatiquement le &lt;em>manifest&lt;/em> et le &lt;em>visualiseur&lt;/em> IIIF de ces images (API présentation). Les métadonnées des images sont lues à la volée lors de l&amp;rsquo;import de leur import.&lt;/p></description></item></channel></rss>

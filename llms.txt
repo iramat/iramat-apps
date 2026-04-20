@@ -50,6 +50,7 @@
 
 > My IIIF collection
 
+- [Données raster](https://iramat.github.io/iramat-apps/geoserver/exemples/wms/): My Données Vecto collection is something wild
 - [Données vectorielles](https://iramat.github.io/iramat-apps/geoserver/exemples/wfs/): My Données Vecto collection is something wild
 
 ## IIIF
