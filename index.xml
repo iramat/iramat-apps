@@ -31,5 +31,7 @@
 &lt;a class="link link--text" href="https://iramat-apps.cnrs.fr/iiif-loader/" rel="external">https://iramat-apps.cnrs.fr/iiif-loader/&lt;/a>&lt;/p>
 &lt;h2 id="description">Description&lt;/h2>
 &lt;p>Le webservice &lt;code>iiif-loader&lt;/code> permet de mettre une ligne et en IIIF des images en générant automatiquement le &lt;em>manifest&lt;/em> et le &lt;em>visualiseur&lt;/em> IIIF de ces images (API présentation). Les métadonnées des images sont lues à la volée lors de l&amp;rsquo;import de leur import.&lt;/p></description></item><item><title>Pile logicielle</title><link>https://iramat.github.io/iramat-apps/docs/stack/pile-logicielle/</link><pubDate>Tue, 17 Feb 2026 13:03:14 +0100</pubDate><guid>https://iramat.github.io/iramat-apps/docs/stack/pile-logicielle/</guid><description>&lt;p>Les applications de l&amp;rsquo;Iramat (Iramat-apps) décrites sur ce site web sont hebergées sur une machine virtuelle (&lt;em>Virtual Machine&lt;/em>, VM)&lt;/p>
-&lt;h2 id="virtual-machine">Virtual Machine&lt;/h2>
-&lt;p>Instance Ubuntu 22.04 LTS hébergée au Mésocentre de l&amp;rsquo;Université Paris-Saclay&lt;/p></description></item></channel></rss>
+&lt;h2 id="github">GitHub&lt;/h2>
+&lt;p>Ce site web (Hugo), ainsi que des données de référence, les presentations Quarto, les discussions, etc. sont hébergées sur le GitHub de l&amp;rsquo;IRAMAT: 
+
+&lt;a class="link link--text" href="https://github.com/iramat" rel="external">https://github.com/iramat&lt;/a>&lt;/p></description></item></channel></rss>
