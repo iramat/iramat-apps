@@ -4,7 +4,11 @@ Les applications de l'Iramat (Iramat-apps) décrites sur ce site web sont heberg
 
 ## GitHub
 
-Ce site web (Hugo), ainsi que des données de référence, les presentations Quarto, les discussions, etc. sont hébergées sur le GitHub de l'IRAMAT: <https://github.com/iramat>
+Le site web, ainsi que des données de référence, les presentations Quarto, les discussions, etc. sont hébergées sur le GitHub de l'IRAMAT: <https://github.com/iramat>
+
+### Site web
+
+Les données de ce site web, développé en Hugo, sont hébergées ici: <https://github.com/iramat/iramat-apps/tree/hugo-files/content>
 
 ## VM
 

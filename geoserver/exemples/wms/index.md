@@ -2,10 +2,10 @@
 
 # Données raster
 
-Lorem
+Le service WMS (_Web Map Service_) qui fournit ces données est: <https://iramat-apps.cnrs.fr/geoserver/ows?version=1.3.0>, couche `vialas:mne`, et peut être appelé depuis un SIG. Cet exemple montre le modèle numérique d'élévation (MNE) des environs de la mine de Vialas-Le Bocard (Parc national des Cévennes)
 
-[^1]: Groupe de site de production d'or des collines de la Mer Rouge (Nubie/Soudan), dit "_Group: Red Sea Hills_" dans: Klemm, R., & Klemm, D. (2012). Gold Production Sites and Gold Mining in Nubia/Sudan. In _Gold and Gold Mining in Ancient Egypt and Nubia: Geoarchaeology of the Ancient Gold Mining Sites in the Egyptian and Sudanese Eastern Deserts_ (pp. 341-599). Berlin, Heidelberg: Springer Berlin Heidelberg.
-[^2]: _Web Feature Service_
+[^1]: ...
+
 
 <div class="wide-frame">
   <iframe

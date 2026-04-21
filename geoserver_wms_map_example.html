@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_b000f4afbabfeb8a82becf5e9f6a1b93 {
+                #map_1cbddb3b10e07306fd629edfa11c8b55 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,14 +54,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_b000f4afbabfeb8a82becf5e9f6a1b93" ></div>
+            <div class="folium-map" id="map_1cbddb3b10e07306fd629edfa11c8b55" ></div>
         
 </body>
 <script>
     
     
-            var map_b000f4afbabfeb8a82becf5e9f6a1b93 = L.map(
-                "map_b000f4afbabfeb8a82becf5e9f6a1b93",
+            var map_1cbddb3b10e07306fd629edfa11c8b55 = L.map(
+                "map_1cbddb3b10e07306fd629edfa11c8b55",
                 {
                     center: [44.32642306175704, 3.890338786762889],
                     crs: L.CRS.EPSG3857,
@@ -73,13 +73,13 @@
 
                 }
             );
-            L.control.scale().addTo(map_b000f4afbabfeb8a82becf5e9f6a1b93);
+            L.control.scale().addTo(map_1cbddb3b10e07306fd629edfa11c8b55);
 
             
 
         
     
-            var tile_layer_eecafff104bf2ece963218109cc5e0e2 = L.tileLayer(
+            var tile_layer_8adb342a995828c827b7accba936d16d = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -96,41 +96,41 @@
             );
         
     
-            tile_layer_eecafff104bf2ece963218109cc5e0e2.addTo(map_b000f4afbabfeb8a82becf5e9f6a1b93);
+            tile_layer_8adb342a995828c827b7accba936d16d.addTo(map_1cbddb3b10e07306fd629edfa11c8b55);
         
     
-            var macro_element_77c48d7cb389ce5f9271ce5ca4755448 = L.tileLayer.wms(
+            var macro_element_52040fdae825af91e2077569c611ea0c = L.tileLayer.wms(
                 "https://iramat-apps.cnrs.fr/geoserver/ows?version=1.3.0",
-                {"attribution": "GeoServer WMS", "format": "image/png", "layers": "vialas:mne", "styles": "", "transparent": true, "version": "1.3.0"}
+                {"attribution": "GeoServer WMS", "format": "image/png", "layers": "vialas:mne_env", "styles": "", "transparent": true, "version": "1.3.0"}
             );
         
     
-            macro_element_77c48d7cb389ce5f9271ce5ca4755448.addTo(map_b000f4afbabfeb8a82becf5e9f6a1b93);
+            macro_element_52040fdae825af91e2077569c611ea0c.addTo(map_1cbddb3b10e07306fd629edfa11c8b55);
         
     
-            map_b000f4afbabfeb8a82becf5e9f6a1b93.fitBounds(
+            map_1cbddb3b10e07306fd629edfa11c8b55.fitBounds(
                 [[44.31731977978829, 3.8776572567956915], [44.33552634372578, 3.9030203167300863]],
                 {}
             );
         
     
-            var layer_control_83d16862df09eb6788229a10307b38f4_layers = {
+            var layer_control_d8c01bf084f30b98c24871700683dcd8_layers = {
                 base_layers : {
-                    "OpenStreetMap" : tile_layer_eecafff104bf2ece963218109cc5e0e2,
+                    "OpenStreetMap" : tile_layer_8adb342a995828c827b7accba936d16d,
                 },
                 overlays :  {
-                    "vialas:mne" : macro_element_77c48d7cb389ce5f9271ce5ca4755448,
+                    "vialas:mne_env" : macro_element_52040fdae825af91e2077569c611ea0c,
                 },
             };
-            let layer_control_83d16862df09eb6788229a10307b38f4 = L.control.layers(
-                layer_control_83d16862df09eb6788229a10307b38f4_layers.base_layers,
-                layer_control_83d16862df09eb6788229a10307b38f4_layers.overlays,
+            let layer_control_d8c01bf084f30b98c24871700683dcd8 = L.control.layers(
+                layer_control_d8c01bf084f30b98c24871700683dcd8_layers.base_layers,
+                layer_control_d8c01bf084f30b98c24871700683dcd8_layers.overlays,
                 {
   "position": "topright",
   "collapsed": true,
   "autoZIndex": true,
 }
-            ).addTo(map_b000f4afbabfeb8a82becf5e9f6a1b93);
+            ).addTo(map_1cbddb3b10e07306fd629edfa11c8b55);
 
         
 </script>

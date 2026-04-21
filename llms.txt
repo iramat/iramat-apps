@@ -4,16 +4,9 @@
 
 - [Page not found](https://iramat.github.io/iramat-apps/404/): The page you're looking for doesn’t exist or has moved. Check the URL, use the navigation to browse sections, or return to the homepage.
 - [Privacy Policy](https://iramat.github.io/iramat-apps/privacy/): Learn how we collect, use, and protect your personal data, what rights you have over your information, and how to contact us with questions.
-- [Blog](https://iramat.github.io/iramat-apps/blog/): Read product updates, release highlights, and practical tips that explain what’s new, why it matters, and how to get the most value from this project.
 - [Documentation générale](https://iramat.github.io/iramat-apps/docs/): Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
 - [GeoServer](https://iramat.github.io/iramat-apps/geoserver/): My IIIF collection
 - [IIIF](https://iramat.github.io/iramat-apps/iiif/): My IIIF collection
-
-## Blog
-
-> Read product updates, release highlights, and practical tips that explain what’s new, why it matters, and how to get the most value from this project.
-
-- [Example Post](https://iramat.github.io/iramat-apps/blog/example-post/): Learn how to write clear, structured product update posts that explain what changed, why it matters, and how users can successfully adopt new features.
 
 ## Documentation générale
 
@@ -39,19 +32,19 @@
 > My IIIF collection
 
 - [Documentation GeoServer](https://iramat.github.io/iramat-apps/geoserver/doc/): My IIIF collection
-- [Exemple d'usages du GeoServer](https://iramat.github.io/iramat-apps/geoserver/exemples/): My IIIF collection
+- [Exemples GeoServer](https://iramat.github.io/iramat-apps/geoserver/exemples/): My IIIF collection
 
 ### Documentation GeoServer
 
 > My IIIF collection
 
 
-### Exemple d'usages du GeoServer
+### Exemples GeoServer
 
 > My IIIF collection
 
-- [Données raster](https://iramat.github.io/iramat-apps/geoserver/exemples/wms/): My Données Vecto collection is something wild
-- [Données vectorielles](https://iramat.github.io/iramat-apps/geoserver/exemples/wfs/): My Données Vecto collection is something wild
+- [Exemples de WMS](https://iramat.github.io/iramat-apps/geoserver/exemples/wms/): My IIIF collection
+- [Exemples de WFS](https://iramat.github.io/iramat-apps/geoserver/exemples/wfs/): My IIIF collection
 
 ## IIIF
 
@@ -67,6 +60,7 @@
 > My IIIF collection
 
 - [Metadata](https://iramat.github.io/iramat-apps/iiif/doc/metadata/): Métadonnées des images IIIF
+- [Documents externes](https://iramat.github.io/iramat-apps/iiif/doc/references/): Métadonnées des images IIIF
 
 ### Exemples de IIIF
 

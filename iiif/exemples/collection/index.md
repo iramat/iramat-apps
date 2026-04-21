@@ -1,6 +1,6 @@
 # CollectionLorem Ipsum
 
-Collection des images IIIF du projet `ceramo`
+Une collection, par définition, réunie tous les _manifests_ d'un projet (ou `project-collection`). Par exemple, la collection des images IIIF du projet `ceramo`.
 <!-- <p align="center"> -->
 <div class="wide-frame">
   <iframe

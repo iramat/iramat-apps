@@ -7,10 +7,11 @@ import requests
 
 
 WMS_BASE_URL = "https://iramat-apps.cnrs.fr/geoserver/ows?version=1.3.0"
-LAYER_NAME = "vialas:mne"
+LAYER_NAME = "vialas:ortho_site"
+OUTPUT_FILE = "geoserver_wms_ortho_map_example.html"
 
 IN_DIR = os.path.dirname(os.path.realpath(__file__))
-OUTPUT_HTML = os.path.join(IN_DIR, "geoserver_wms_map_example.html")
+OUTPUT_HTML = os.path.join(IN_DIR, OUTPUT_FILE)
 
 
 def get_wms_capabilities(base_url: str) -> bytes:

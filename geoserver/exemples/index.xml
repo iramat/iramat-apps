@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Exemple d'usages du GeoServer on Iramat-apps</title><link>https://iramat.github.io/iramat-apps/geoserver/exemples/</link><description>Recent content in Exemple d'usages du GeoServer on Iramat-apps</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2026 Thulite</copyright><lastBuildDate>Thu, 07 Sep 2023 16:12:03 +0200</lastBuildDate><atom:link href="https://iramat.github.io/iramat-apps/geoserver/exemples/index.xml" rel="self" type="application/rss+xml"/><item><title>Données raster</title><link>https://iramat.github.io/iramat-apps/geoserver/exemples/wms/</link><pubDate>Thu, 07 Sep 2023 16:12:03 +0200</pubDate><guid>https://iramat.github.io/iramat-apps/geoserver/exemples/wms/</guid><description>&lt;h1 id="données-raster">Données raster&lt;/h1>
-&lt;p>Lorem&lt;/p>
-&lt;div class="wide-frame">
- &lt;iframe
- src="https://iramat-apps.cnrs.fr/portal/html/geoserver_wms_map_example.html"
- width="100%"
- height="700"
- style="border:none;">
- &lt;/iframe>
-&lt;/div></description></item><item><title>Données vectorielles</title><link>https://iramat.github.io/iramat-apps/geoserver/exemples/wfs/</link><pubDate>Thu, 07 Sep 2023 16:12:03 +0200</pubDate><guid>https://iramat.github.io/iramat-apps/geoserver/exemples/wfs/</guid><description>&lt;h1 id="données-vectorielles">Données vectorielles&lt;/h1>
-&lt;p>Sites de production d&amp;rsquo;or&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> au format vectoriel et hebergés dans une base de données Postgis. Le service WFS (&lt;em>Web Feature Service&lt;/em>) qui fournit ces données est: 
-
-&lt;a class="link link--text" href="https://iramat-apps.cnrs.fr/geoserver/ows?acceptversions=2.0.0" rel="external">https://iramat-apps.cnrs.fr/geoserver/ows?acceptversions=2.0.0&lt;/a>, couche &lt;code>patrimin:sites&lt;/code>, et peut être appelé depuis un SIG.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Exemples GeoServer on Iramat-apps</title><link>https://iramat.github.io/iramat-apps/geoserver/exemples/</link><description>Recent content in Exemples GeoServer on Iramat-apps</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2026 Thulite</copyright><lastBuildDate/><atom:link href="https://iramat.github.io/iramat-apps/geoserver/exemples/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

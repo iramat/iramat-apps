@@ -1,6 +1,6 @@
 # Compare
 
-Superposition de deux images d'une même scorie (avant et après attaque Nital), projet: `TerriFer`, objet: `89.344.003.M10`
+Le webservice [iiif-compare](http://localhost:1313/iiif/webservices/iiif-compare/), superpose deux images avec un curseur de comparaison (ou rideau) permettant de comparer deux états d'un même objet. Dans l'exemple ci-dessous, vue d'une scorie (avant et après attaque Nital), projet: `TerriFer`, objet: `89.344.003.M10`
 
 <!-- <p align="center"> -->
 <div class="wide-frame">
