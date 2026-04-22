@@ -8,7 +8,7 @@ Le site web, ainsi que des données de référence, les presentations Quarto, le
 
 ### Site web
 
-Les données de ce site web, développé en Hugo, sont hébergées ici: <https://github.com/iramat/iramat-apps/tree/hugo-files/content>
+Les données de ce site web, développé en Hugo, sont hébergées ici: <https://github.com/iramat/iramat-apps/tree/hugo-files/content>.
 
 ## VM
 
@@ -26,7 +26,7 @@ La VM héberge une instance Numishare (voir [documentation](https://iramat.githu
 
 ##### Modèle conceptuel de données
 
-Le Modèle conceptuel de données (MCD) de l'instance Numishare est le suivant:
+Le Modèle conceptuel de données (MCD) de l'instance Numishare[^1] est le suivant:
 
 ```mermaid
 flowchart TB
@@ -49,6 +49,8 @@ flowchart TB
     Numishare --> Cantaloupe
     Cantaloupe --> Images
 ```
+
+[^1]: liste des projets utilisant la pile logicielle Numishare: <https://numismatics.org/resources/>
 
 ### IIIF
 

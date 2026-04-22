@@ -1,6 +1,6 @@
-# MetadataLorem Ipsum
+# MétadonnéesLorem Ipsum
 
-# Metadata
+# Métadonnées
 
 ## Liste
 

@@ -59,7 +59,7 @@
 
 > My IIIF collection
 
-- [Metadata](https://iramat.github.io/iramat-apps/iiif/doc/metadata/): Métadonnées des images IIIF
+- [Métadonnées](https://iramat.github.io/iramat-apps/iiif/doc/metadata/): Métadonnées des images IIIF
 - [Documents externes](https://iramat.github.io/iramat-apps/iiif/doc/references/): Métadonnées des images IIIF
 
 ### Exemples de IIIF
