@@ -7,6 +7,7 @@
 - [Documentation générale](https://iramat.github.io/iramat-apps/docs/): Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
 - [GeoServer](https://iramat.github.io/iramat-apps/geoserver/): My IIIF collection
 - [IIIF](https://iramat.github.io/iramat-apps/iiif/): My IIIF collection
+- [RTI](https://iramat.github.io/iramat-apps/rti/): My IIIF collection
 
 ## Documentation générale
 
@@ -51,7 +52,7 @@
 > My IIIF collection
 
 - [Documentation IIIF](https://iramat.github.io/iramat-apps/iiif/doc/): My IIIF collection
-- [Exemples de IIIF](https://iramat.github.io/iramat-apps/iiif/exemples/): My IIIF collection
+- [Exemples de IIIF](https://iramat.github.io/iramat-apps/iiif/examples/): My IIIF collection
 - [Liste des visualiseurs IIIF](https://iramat.github.io/iramat-apps/iiif/list/): My IIIF collection
 - [Webservices IIIF](https://iramat.github.io/iramat-apps/iiif/webservices/): My IIIF collection
 
@@ -66,9 +67,9 @@
 
 > My IIIF collection
 
-- [Collection](https://iramat.github.io/iramat-apps/iiif/exemples/collection/): My IIIF collection
-- [Compare](https://iramat.github.io/iramat-apps/iiif/exemples/compare/): My IIIF collection
-- [Séquence](https://iramat.github.io/iramat-apps/iiif/exemples/sequence/): My IIIF collection
+- [Collection](https://iramat.github.io/iramat-apps/iiif/examples/collection/): My IIIF collection
+- [Compare](https://iramat.github.io/iramat-apps/iiif/examples/compare/): My IIIF collection
+- [Séquence](https://iramat.github.io/iramat-apps/iiif/examples/sequence/): My IIIF collection
 
 ### Liste des visualiseurs IIIF
 
@@ -81,4 +82,16 @@
 
 - [iiif-compare](https://iramat.github.io/iramat-apps/iiif/webservices/iiif-compare/): Documentation du webservice
 - [iiif-loader](https://iramat.github.io/iramat-apps/iiif/webservices/iiif-loader/): Documentation du webservice
+
+## RTI
+
+> My IIIF collection
+
+- [Exemples de RTI](https://iramat.github.io/iramat-apps/rti/examples/): My IIIF collection
+
+### Exemples de RTI
+
+> My IIIF collection
+
+- [Monnaie](https://iramat.github.io/iramat-apps/rti/examples/monnaie/): My IIIF collection
 
