@@ -5,10 +5,11 @@ summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
 draft: false
-weight: 999
-toc: true
+weight: 100
+layout: docs
+toc: false
 params:
-  fullwidth: true
+  # fullwidth: true
   seo:
     title: "" # custom title (optional)
     description: "" # custom description (recommended)
@@ -20,8 +21,9 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
+# Données vectorielles
 
-Sites de production d'or[^1] au format vectoriel et hebergés dans une base de données Postgis. Le service WFS (_Web Feature Service_) qui fournit ces données est: <https://iramat-apps.cnrs.fr/geoserver/ows?acceptversions=2.0.0>, couche `patrimin:sites`, et peut être appelé depuis un SIG.
+Le service WFS (_Web Feature Service_) qui fournit ces données est: <https://iramat-apps.cnrs.fr/geoserver/ows?acceptversions=2.0.0>, couche `patrimin:sites`, et peut être appelé depuis un SIG. Cet exemple montre les sites de production d'or[^1] au format vectoriel et hebergés dans une base de données PostgreSQL/Postgis.
 
 [^1]: Groupe de site de production d'or des collines de la Mer Rouge (Nubie/Soudan), dit "_Group: Red Sea Hills_" dans: Klemm, R., & Klemm, D. (2012). Gold Production Sites and Gold Mining in Nubia/Sudan. In _Gold and Gold Mining in Ancient Egypt and Nubia: Geoarchaeology of the Ancient Gold Mining Sites in the Egyptian and Sudanese Eastern Deserts_ (pp. 341-599). Berlin, Heidelberg: Springer Berlin Heidelberg.
 [^2]: _Web Feature Service_

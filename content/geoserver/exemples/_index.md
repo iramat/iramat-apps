@@ -1,5 +1,5 @@
 ---
-title: "Exemple d'usages du GeoServer"
+title: "Exemples GeoServer"
 description: "My IIIF collection"
 summary: ""
 date: 2023-09-07T16:12:03+02:00
@@ -19,4 +19,4 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Exemples de données "servies" par le GeoServer de l'IRAMAT (vectorielles: [WFS](https://iramat.github.io/iramat-apps/geoserver/exemples/wfs"); raster: [WMS]())
+Exemples de données hebergées par le GeoServer de l'IRAMAT (vectorielles: [WFS](./wfs); raster: [WMS](./wms)) et embarquée, pour l'exemple, dans une page HTML. 

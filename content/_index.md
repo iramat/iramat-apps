@@ -1,7 +1,7 @@
 ---
 title: "Iramat-apps"
 description: "Discover how the Doks Hugo theme helps you build fast, modern, and searchable documentation sites with a clean UI, dark mode, and powerful extras."
-lead: "Documentation des applications hebergées sur le serveur web de l'IRAMAT"
+lead: "Documentation des applications et des métadonnées hébergées sur le serveur web de l'IRAMAT"
 date: 2023-09-07T16:33:54+02:00
 lastmod: 2026-02-16T16:10:57+01:00
 draft: false

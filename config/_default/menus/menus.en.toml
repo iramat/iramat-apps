@@ -35,6 +35,12 @@
   weight = 10
 
 [[main]]
+  name = "RTI"
+  url = "/rti/"
+# url = "/docs/1.0/prologue/introduction/"
+  weight = 15
+
+[[main]]
   name = "GeoServer"
   url = "/geoserver/"
 # url = "/docs/1.0/prologue/introduction/"

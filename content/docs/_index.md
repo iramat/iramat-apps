@@ -18,3 +18,5 @@ params:
     iconName: "book"
     startUrl: "/docs/stack/"
 ---
+
+Documentation générale des applications et données de l'IRAMAT.

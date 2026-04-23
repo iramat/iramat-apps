@@ -1,13 +1,14 @@
 ---
-title: "Liste des visualiseurs IIIF"
+title: "Séquence"
 description: "My IIIF collection"
 summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
 draft: false
 weight: 999
-toc: true
+toc: false
 params:
+  fullwidth: true
   seo:
     title: "" # custom title (optional)
     description: "" # custom description (recommended)
@@ -19,13 +20,15 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Les visualiseurs IIIF ( _IIIF viewers_, ou _Presentation API_) sont classés par `project-collection`. Par exemple `arl-x-s-1_side-1` est un objet du projet `acies`.
+Séquence de deux images ou plus (au bas de l'image dans le visualiseur Mirador ci-dessous). Dans cet exemple (droit et envers) d'une même monnaie, projet: `Numismatic`, objet: `1986.416`
 
-<p align="center">
+<!-- <p align="center"> -->
+<div class="wide-frame">
   <iframe
-    src="https://iramat-apps.cnrs.fr/portal/html/iiif-list.html"
-    width="100%"
-    height="1000"
+    src="https://iramat-apps.cnrs.fr/view/numismatic/1986.416.html"
+    width="80%"
+    height="800"
     style="border:none;">
   </iframe>
-</p>
+</div>
+<!-- </p> -->

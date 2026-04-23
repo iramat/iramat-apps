@@ -1,13 +1,14 @@
 ---
-title: "Liste des visualiseurs IIIF"
+title: "Exemples de WMS"
 description: "My IIIF collection"
 summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
 draft: false
-weight: 999
+weight: 50
 toc: true
 params:
+  fullwidth: true
   seo:
     title: "" # custom title (optional)
     description: "" # custom description (recommended)
@@ -19,13 +20,5 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Les visualiseurs IIIF ( _IIIF viewers_, ou _Presentation API_) sont classés par `project-collection`. Par exemple `arl-x-s-1_side-1` est un objet du projet `acies`.
+Le _Web Maps Service_ (WMS) est un webservice pour les données rasters (ex: GeoTIFF, COPC.LAZ).
 
-<p align="center">
-  <iframe
-    src="https://iramat-apps.cnrs.fr/portal/html/iiif-list.html"
-    width="100%"
-    height="1000"
-    style="border:none;">
-  </iframe>
-</p>

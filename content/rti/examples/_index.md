@@ -1,12 +1,12 @@
 ---
-title: "Séquence"
+title: "Exemples de RTI"
 description: "My IIIF collection"
 summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
 draft: false
 weight: 999
-toc: false
+toc: true
 params:
   fullwidth: true
   seo:
@@ -20,15 +20,4 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Séquence de deux images (droit et envers) d'une même monnaie, projet: `Numismatic`, objet: `1986.416`
-
-<!-- <p align="center"> -->
-<div class="wide-frame">
-  <iframe
-    src="https://iramat-apps.cnrs.fr/view/numismatic/1986.416.html"
-    width="80%"
-    height="800"
-    style="border:none;">
-  </iframe>
-</div>
-<!-- </p> -->
+Lorem Ipsum Ipsum

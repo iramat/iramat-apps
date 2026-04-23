@@ -1,7 +1,7 @@
 ---
-title: "Compare"
+title: "Monnaie"
 description: "My IIIF collection"
-summary: ""
+summary: "Lorem Ipsum"
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
 draft: false
@@ -20,12 +20,11 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Superposition de deux images d'une même scorie (avant et après attaque Nital), projet: `TerriFer`, objet: `89.344.003.M10`
-
+Test
 <!-- <p align="center"> -->
 <div class="wide-frame">
   <iframe
-    src="https://iramat-apps.cnrs.fr/view/TerriFer/89.344.003.M10xx_compare.html"
+    src="https://iramat-apps.cnrs.fr/portal/openlime/dist/examples/rti-viewer/rti-viewer.html"
     width="100%"
     height="1000"
     style="border:none;">

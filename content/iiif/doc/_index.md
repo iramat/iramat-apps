@@ -19,4 +19,5 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Les images IIIF hebergées à l'IRAMAT, classées par `project-collection`
+Documentation sur les métadonnées des images IIIF utilisées à l'IRAMAT, et documentation générale sur le IIIF
+

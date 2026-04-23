@@ -1,11 +1,11 @@
 ---
-title: "Metadata"
+title: "Métadonnées"
 description: "Métadonnées des images IIIF"
 summary: "Lorem Ipsum"
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
 draft: false
-weight: 999
+weight: 100
 toc: false
 layout: "docs"
 params:
@@ -20,9 +20,11 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-# Metadata
+# Métadonnées
 
-La liste des **métadonnées XMP** -- ou des **métadonnées IPTC étendues à l'XMP** (Iptc4xmpExt) -- lues par le webservice [iiif-loader](http://localhost:1313/iiif/webservices/iiif-loader/) est présentée dans le tableau ci-dessous. Editer les métadonnées de l'image dans **XnView**:
+## Liste
+
+La liste des **métadonnées XMP** -- ou des **métadonnées IPTC étendues à l'XMP** (Iptc4xmpExt) -- lues par le webservice [iiif-loader](http://localhost:1313/iiif/webservices/iiif-loader/) est présentée dans le tableau ci-dessous. 
 
 {{< tsvtable "data/metadata.tsv" >}}
 <center>
@@ -31,7 +33,12 @@ voir [code source](https://github.com/iramat/iramat-apps/blob/hugo-files/static/
 
 </center>
 
-#### onglet `Description`
+## Edition
+
+Edition des métadonnées. Dans l'exemple ci-dessous, l'édition des métadonnées de l'image est faite dans **XnView**:
+
+
+### onglet `Description`
 
 - Document title
 - Author
@@ -40,7 +47,7 @@ voir [code source](https://github.com/iramat/iramat-apps/blob/hugo-files/static/
 
 <img width="700" alt="Image" src="https://github.com/user-attachments/assets/c46a21be-014c-47f3-99ed-d0f53343b556" />
 
-#### onglet `Origin`
+### onglet `Origin`
 
 - Source
 
