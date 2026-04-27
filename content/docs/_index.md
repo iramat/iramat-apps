@@ -19,4 +19,6 @@ params:
     startUrl: "/docs/stack/"
 ---
 
-Documentation générale des applications et données de l'IRAMAT.
+Documentation générale des applications et données de l'IRAMAT. 
+<br><br>
+Les fonctionnalités, métadonnées, références, etc. peuvent être discutées dans les [_Issues_](https://github.com/iramat/iramat-apps/issues) de <https://github.com/iramat/iramat-apps/>
