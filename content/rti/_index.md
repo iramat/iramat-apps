@@ -20,8 +20,11 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-<img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-rti-vcl.png" style="height: 30px;vertical-align: middle;"> - Viewer OpenLIME
+<img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-rti-vcl.png" style="height: 30px;vertical-align: middle;"> - Le visualiseur web OpenLIME [^1] permet d' afficher et interagir avec des images RTI (_Reflectance Transformation Imaging_) et d'autres formats _relightables_.
 
 ---
 
-Lorem Ipsum
+Cette section présente des [exemples](./examples/) de visualisations interactives
+
+
+[^1]: OpenLIME (_Open Layered IMage Explorer_) a été développé par le CNR-ISTI qui est aussi à l'origine de Meshlab.

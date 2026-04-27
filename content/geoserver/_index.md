@@ -24,5 +24,5 @@ params:
 
 ---
 
-Cette section présente de la [documentation](./doc/) et des [exemples](./exemples/) d'utilisation du GeoServer. Le GeoServer est accessible à cette adresse: 
+Cette section présente de la [documentation](./doc/) et des [exemples](./examples/) d'utilisation du GeoServer. Le GeoServer est accessible à cette adresse: 
 <a href="https://iramat-apps.cnrs.fr/geoserver/web/?0" target="_blank">https://iramat-apps.cnrs.fr/geoserver/web/?0</a>. Un exemple de projet QGIS embarquant des données vectorielles et _raster_ est téléchargeable ici: [fichier QGIS](https://github.com/iramat/iramat-dev/blob/main/geoserver/README.md)
