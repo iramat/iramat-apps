@@ -17,6 +17,11 @@ defaultContentLanguageInSubdir = false
 
 copyRight = "Copyright (c) 2020-2026 Thulite"
 
+# [markup]
+#   [markup.tableOfContents]
+#     startLevel = 2
+#     endLevel = 4
+
 [params]
   favicon = "favicon.png"
 # logo = "/images/logo.png"

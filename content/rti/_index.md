@@ -27,4 +27,4 @@ params:
 Cette section présente des [exemples](./examples/) de visualisations interactives
 
 
-[^1]: OpenLIME (_Open Layered IMage Explorer_) a été développé par le CNR-ISTI qui est aussi à l'origine de Meshlab.
+[^1]: OpenLIME (_Open Layered IMage Explorer_) a été développé par le CNR-ISTI qui est aussi à l'origine de Meshlab, <https://github.com/cnr-isti-vclab/openlime>

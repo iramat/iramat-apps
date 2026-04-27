@@ -34,5 +34,3 @@ params:
 
 - Superposition de données de fouilles avec des cartes historiques.
 - Collaboration en temps réel sur des projets de terrain.
-
-**Prérequis** : Connaissances basiques en SIG et accès à un serveur.

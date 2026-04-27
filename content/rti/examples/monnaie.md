@@ -20,7 +20,7 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Test
+Test RTI
 <!-- <p align="center"> -->
 <div class="wide-frame">
   <iframe

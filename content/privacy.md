@@ -1,6 +1,6 @@
 ---
-title: "Privacy Policy"
-description: "Learn how we collect, use, and protect your personal data, what rights you have over your information, and how to contact us with questions."
+title: "About Iramat-apps"
+description: ""
 summary: ""
 date: 2023-09-07T17:19:07+02:00
 lastmod: 2026-02-16T15:33:59+01:00
@@ -14,8 +14,12 @@ params:
     robots: "" # custom robot tags (optional)
 ---
 
-We value your privacy and are committed to protecting your personal data. This Privacy Policy explains what information we collect, how we use it, and the choices you have.
+<center>
 
-We only collect the information necessary to provide and improve our services, such as basic usage analytics and any details you choose to share with us (for example, via forms or support requests). We do not sell your personal data.
+<img src="/logo.png" style="height: 80px;vertical-align: middle;"> 
 
-If you have any questions about this policy or how we handle your data, please contact us using the details provided on this site.
+</center>
+
+<br>
+
+**Iramat-apps** is a static website hosted on GitHub. It provides documentation for web applications (such as IIIF and RTI) designed to enhance interactivity with data and promote the interoperability of archaeological science data.
