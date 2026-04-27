@@ -1,18 +1,19 @@
 # Pile logicielle<no value>
 
-Les applications de l'Iramat (Iramat-apps) décrites sur ce site web sont hebergées sur une machine virtuelle (_Virtual Machine_, VM)
+Les applications de l'Iramat (<https://iramat-apps.cnrs.fr/>) décrites sur ce site web sont hebergées sur un [serveur web](#serveur)
 
 ## GitHub
 
-Le site web, ainsi que des données de référence, les presentations Quarto, les discussions, etc. sont hébergées sur le GitHub de l'IRAMAT: <https://github.com/iramat>
+Le site web, ainsi que des données de référence, les présentations Quarto, les discussions, etc. sont hébergées sur le GitHub de l'IRAMAT: <https://github.com/iramat>
 
 ### Site web
 
 Les données de ce site web, développé en Hugo, sont hébergées ici: <https://github.com/iramat/iramat-apps/tree/hugo-files/content>.
 
-## VM
+## Serveur
+> _server_, _Virtual Machine_, VM
 
-Instance Ubuntu 22.04 LTS hébergée au Mésocentre de l'Université Paris-Saclay
+Instance Ubuntu 22.04 LTS hébergée au [Mésocentre](https://mesocentre.universite-paris-saclay.fr/) de l'Université Paris-Saclay
 
 ### Bases de données
 
@@ -54,11 +55,11 @@ flowchart TB
 
 ### IIIF
 
-La VM héberge un serveur d'image Cantaloupe et un _viewer_ Mirador (CDN). Des _webservices_ Flask (v3.1.1) sont installés pour faciliter la transformation des images à l'isostandard IIIF... [lien](https://iramat.github.io/iramat-apps/iiif/)
+Le serveur web héberge un serveur d'image Cantaloupe et un _viewer_ Mirador (CDN). Des _webservices_ Flask (v3.1.1) sont installés pour faciliter la transformation des images à l'isostandard IIIF [[lien interne](https://iramat.github.io/iramat-apps/iiif/)]
 
 ### GeoServer
 
-La VM héberge un seveur de cartes GeoServer... [lien](https://iramat.github.io/iramat-apps/geoserver/)
+Le serveur web héberge un GeoServer: <https://iramat.github.io/iramat-apps/geoserver/>
 
 ## Zenodo
 
