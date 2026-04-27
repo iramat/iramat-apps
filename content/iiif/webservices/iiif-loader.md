@@ -27,10 +27,6 @@ Les images IIIF sont stockées dans différents **dossiers-projets** ([documenta
 
 ---
 
-👉 Contacter <thomas.huet@cnrs.fr> pour (i) avoir le **mot de passe** et (ii) créer votre **dossier-projet**.
-
----
-
 ## Sujets connexes
 
 [Métadonnées des images](https://iramat.github.io/iramat-apps/iiif/doc/metadata), [IIIF](https://iramat.github.io/iramat-apps/iiif)

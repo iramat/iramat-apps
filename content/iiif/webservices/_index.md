@@ -1,6 +1,8 @@
 ---
 title: "Webservices IIIF"
 description: "My IIIF collection"
+type: "iiif"
+layout: "docs"
 summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
@@ -19,4 +21,7 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Lorem, Lorem, Lorem
+Ces **webservices IIIF** vous permettent[^1] de mettre une [image en IIIF](./iiif-loader/), ou de [superposer deux images IIIF](./iiif-compare/)
+
+
+[^1]: 👉 Contacter <thomas.huet@cnrs.fr> pour (i) avoir le **mot de passe** et (ii) créer votre **dossier-projet**.

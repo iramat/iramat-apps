@@ -19,5 +19,5 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Documentation sur le RTI
+Lorem
 

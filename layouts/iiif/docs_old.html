@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <article class="iiif-section">
+    <div class="iiif-intro">
+      {{ .Content }}
+    </div>
+
+    {{ $sections := .Sections }}
+    {{ if $sections }}
+      <div class="iiif-columns">
+        {{ range $sections.ByTitle }}
+          <div class="iiif-column">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </article>
+{{ end }}

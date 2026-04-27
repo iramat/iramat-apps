@@ -1,17 +1,26 @@
 {{ define "main" }}
   <article class="iiif-section">
+    {{ $content := .Content }}
+    {{ $parts := split $content "<div class=\"footnotes\" role=\"doc-endnotes\">" }}
+
     <div class="iiif-intro">
-      {{ .Content }}
+      {{ index $parts 0 | safeHTML }}
     </div>
 
-    {{ $sections := .Sections }}
-    {{ if $sections }}
+    {{ $pages := union .Sections .RegularPages }}
+    {{ if $pages }}
       <div class="iiif-columns">
-        {{ range $sections.ByTitle }}
+        {{ range $pages.ByTitle }}
           <div class="iiif-column">
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           </div>
         {{ end }}
+      </div>
+    {{ end }}
+
+    {{ if gt (len $parts) 1 }}
+      <div class="footnotes" role="doc-endnotes">
+        {{ index $parts 1 | safeHTML }}
       </div>
     {{ end }}
   </article>
