@@ -33,7 +33,7 @@
 > My IIIF collection
 
 - [Documentation GeoServer](https://iramat.github.io/iramat-apps/geoserver/doc/): My IIIF collection
-- [Exemples GeoServer](https://iramat.github.io/iramat-apps/geoserver/exemples/): My IIIF collection
+- [Exemples GeoServer](https://iramat.github.io/iramat-apps/geoserver/examples/): My IIIF collection
 
 ### Documentation GeoServer
 
@@ -44,8 +44,8 @@
 
 > My IIIF collection
 
-- [Exemples de WMS](https://iramat.github.io/iramat-apps/geoserver/exemples/wms/): My IIIF collection
-- [Exemples de WFS](https://iramat.github.io/iramat-apps/geoserver/exemples/wfs/): My IIIF collection
+- [Exemples de WMS](https://iramat.github.io/iramat-apps/geoserver/examples/wms/): My IIIF collection
+- [Exemples de WFS](https://iramat.github.io/iramat-apps/geoserver/examples/wfs/): My IIIF collection
 
 ## IIIF
 
@@ -87,7 +87,13 @@
 
 > My IIIF collection
 
+- [Documentation RTI](https://iramat.github.io/iramat-apps/rti/doc/): My IIIF collection
 - [Exemples de RTI](https://iramat.github.io/iramat-apps/rti/examples/): My IIIF collection
+
+### Documentation RTI
+
+> My IIIF collection
+
 
 ### Exemples de RTI
 
