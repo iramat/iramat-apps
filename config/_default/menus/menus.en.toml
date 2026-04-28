@@ -46,11 +46,11 @@
 # url = "/docs/1.0/prologue/introduction/"
   weight = 20
 
-[[main]]
-  name = "Documentation générale"
-  url = "/docs/"
-# url = "/docs/1.0/prologue/introduction/"
-  weight = 30
+# [[main]]
+#   name = "Documentation générale"
+#   url = "/docs/"
+# # url = "/docs/1.0/prologue/introduction/"
+#   weight = 30
 
 
 # [[menu.main]]
