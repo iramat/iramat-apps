@@ -1,6 +1,6 @@
 ---
 title: "Documentation RTI"
-description: "My IIIF collection"
+description: "My RTI collection"
 summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
@@ -22,7 +22,7 @@ params:
 
 # Documentation RTI
 
-**RTI (Reflectance Transformation Imaging)** est une technique d’imagerie numérique non invasive qui permet de capturer et d’analyser les détails de surface d’objets en 3D. Elle est largement utilisée en archéologie, conservation et recherche pour révéler des micro-reliefs invisibles à l’œil nu.
+**RTI (Reflectance Transformation Imaging)** est une technique d’imagerie numérique non invasive qui permet de capturer et d’analyser les détails de surface d’objets en 2.5D. Elle est largement utilisée en archéologie, conservation et recherche pour révéler des micro-reliefs invisibles à l’œil nu.
 
 ## Fonctionnalités clés
 
