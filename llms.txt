@@ -7,6 +7,7 @@
 - [Documentation générale](https://iramat.github.io/iramat-apps/docs/): Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
 - [GeoServer](https://iramat.github.io/iramat-apps/geoserver/): My IIIF collection
 - [IIIF](https://iramat.github.io/iramat-apps/iiif/): My IIIF collection
+- [LOD](https://iramat.github.io/iramat-apps/lod/): My LOD collection
 - [RTI](https://iramat.github.io/iramat-apps/rti/): My IIIF collection
 
 ## Documentation générale
@@ -83,16 +84,28 @@
 - [iiif-compare](https://iramat.github.io/iramat-apps/iiif/webservices/iiif-compare/): Documentation du webservice
 - [iiif-loader](https://iramat.github.io/iramat-apps/iiif/webservices/iiif-loader/): Documentation du webservice
 
+## LOD
+
+> My LOD collection
+
+- [Exemples de LOD](https://iramat.github.io/iramat-apps/lod/data/): My LOD collection
+
+### Exemples de LOD
+
+> My LOD collection
+
+- [NDame](https://iramat.github.io/iramat-apps/lod/data/ndame/): My NDame collection
+
 ## RTI
 
 > My IIIF collection
 
-- [Documentation RTI](https://iramat.github.io/iramat-apps/rti/doc/): My IIIF collection
+- [Documentation RTI](https://iramat.github.io/iramat-apps/rti/doc/): My RTI collection
 - [Exemples de RTI](https://iramat.github.io/iramat-apps/rti/examples/): My IIIF collection
 
 ### Documentation RTI
 
-> My IIIF collection
+> My RTI collection
 
 
 ### Exemples de RTI
