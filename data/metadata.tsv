@@ -1,4 +1,4 @@
-Nom du champ dans le logiciel 	Nom du champ standard	Namespace	Exemples de valeurs	Description
+Champ (alias) 	Champ (standard)	Namespace	Exemples de valeurs	Description
 Document Title	dc:title	Dublin Core	Céramique 401.003	Image. Nom ou titre principal de l'image ou de l'objet représenté
 Document Identifiant	dc:identifier	Dublin Core	https://doi.org/10.5281/zenodo.15829515	Image. Identifiant unique de l'image (URL, DOI, UUID, plein texte, etc.)
 Author	dc:creator	Dublin Core	John Doe, Jane Smith	Image. Nom du créateur de l'image (photographe)

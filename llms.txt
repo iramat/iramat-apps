@@ -61,8 +61,6 @@
 
 > My IIIF collection
 
-- [Métadonnées](https://iramat.github.io/iramat-apps/iiif/doc/metadata/): Métadonnées des images IIIF
-- [Documents externes](https://iramat.github.io/iramat-apps/iiif/doc/references/): Métadonnées des images IIIF
 
 ### Exemples de IIIF
 
@@ -88,13 +86,20 @@
 
 > My LOD collection
 
-- [Exemples de LOD](https://iramat.github.io/iramat-apps/lod/data/): My LOD collection
+- [Données LOD](https://iramat.github.io/iramat-apps/lod/data/): My IIIF collection
+- [Métadonnées LOD](https://iramat.github.io/iramat-apps/lod/metadata/): My IIIF collection
 
-### Exemples de LOD
+### Données LOD
 
-> My LOD collection
+> My IIIF collection
 
-- [NDame](https://iramat.github.io/iramat-apps/lod/data/ndame/): My NDame collection
+- [NDame](https://iramat.github.io/iramat-apps/lod/data/ndame/): Documentation du webservice
+
+### Métadonnées LOD
+
+> My IIIF collection
+
+- [Métadonnées des images](https://iramat.github.io/iramat-apps/lod/metadata/images/): Documentation du webservice
 
 ## RTI
 
