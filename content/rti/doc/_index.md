@@ -22,17 +22,32 @@ params:
 
 # Documentation RTI
 
-**RTI (Reflectance Transformation Imaging)** est une technique d’imagerie numérique non invasive qui permet de capturer et d’analyser les détails de surface d’objets en 2.5D. Elle est largement utilisée en archéologie, conservation et recherche pour révéler des micro-reliefs invisibles à l’œil nu.
+RTI (_Reflectance Transformation Imaging_) est une technique d’imagerie numérique non invasive qui permet de capturer et d’analyser les détails de surface d’objets en 2.5D. Elle est largement utilisée en archéologie[^1].
 
 ## Fonctionnalités clés
 
-- **Capture** : Utilise une série de photos sous différents éclairages pour générer une image interactive.
-- **Visualisation** : Permet d’ajuster virtuellement la lumière pour étudier les textures et les détails de surface.
-- **Non invasif** : Préserve l’intégrité physique des objets étudiés.
+Ces solutions sont développées, ou utilisées, par l'IRAMAT.
 
-## Cas d’usage
+<table>
+  <tr>
+    <td><b>Capture</b></td>
+    <td><b>Visualisation</b></td>
+  </tr>
+  <tr>
+    <td>Utilise une série de photos sous différents éclairages pour générer une image interactive</td>
+    <td>Permet d’ajuster virtuellement la lumière pour étudier les textures et les détails de surface </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;">{{< simple-img src="img/RTI_v1_animation_20260415_72pp_0-15s_50perc.gif" alt="Hazor" width="400" >}} <br> Acquisition avec le système <a href="https://hasorimaging.com/">HASOR</a></td>
+    <td style="text-align: center; vertical-align: middle;">  <iframe
+    src="https://iramat-apps.cnrs.fr/portal/openlime/dist/examples/rti-viewer/rti-viewer.html"
+    width="100%"
+    height="540"
+    style="border:none;">
+  </iframe><br> Visualisation avec le visualiseur <em>open source</em> <a href="https://github.com/cnr-isti-vclab/openlime/tree/main">OpenLIME</a></td>
+  </tr>
+</table>
 
-- Analyse d’inscriptions ou de gravures sur des artefacts archéologiques.
-- Documentation de l’état de surface d’œuvres d’art avant/après restauration.
-- Étude comparative de textures pour des recherches typologiques.
+
+[^1]: Exemples de cas d’usage: analyse d’inscriptions ou de gravures, tracéologie (_use-wear analysis_), etc.
 

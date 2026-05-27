@@ -13,20 +13,9 @@ params:
 
 Ce webservice est accessible ici: <https://iramat-apps.cnrs.fr/iiif-loader/> 
 
-## Description
-
-Le webservice `iiif-loader` permet de mettre une ligne et en IIIF des images en générant automatiquement le _manifest_ et le _visualiseur_ IIIF de ces images (API présentation). Les métadonnées des images sont lues à la volée lors de l'import de leur import.
+Le webservice `iiif-loader` permet de mettre des images en IIIF. Il ingère des images statiques (.JPG, .TIFF, etc.) et génère automatiquement leur _manifest_ et _viewer_ IIIF[^1]. Les métadonnées des images sont lues à la volée lors de leur importet restituées dans leur _manifest_ et _viewer_ IIIF[^2]. Les images, leur _manifest_ et _viewer_ IIIF sont stockées dans différents `dossiers-projets`[^3]. 
 
 
-
-
-**dossier-projet**
-
-Les images IIIF sont stockées dans différents **dossiers-projets** ([documentation](https://iramat.github.io/iramat-apps/docs/structure/structuration/)). 
-
-
----
-
-## Sujets connexes
-
-[Métadonnées des images](https://iramat.github.io/iramat-apps/iiif/doc/metadata), [IIIF](https://iramat.github.io/iramat-apps/iiif)
+[^1]: API présentation 
+[^2]: voir la documentation sur les [métadonnées des images](https://iramat.github.io/iramat-apps/iiif/doc/metadata)
+[^3]: voir la documentation sur la [structuration des données](https://iramat.github.io/iramat-apps/docs/structure/structuration/)

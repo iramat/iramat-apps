@@ -22,7 +22,7 @@ params:
 
 # Documentation IIIF
 
-**IIIF (International Image Interoperability Framework)** est un standard ouvert pour la publication, le partage et l’annotation d’images haute résolution sur le web. Il permet une visualisation interactive et collaborative d’images, notamment pour les collections culturelles et scientifiques.
+Le IIIF (_International Image Interoperability Framework_) est un standard ouvert pour la publication, le partage et l’annotation d’images haute résolution sur le web. Il permet une visualisation interactive et collaborative d’images, notamment pour les collections culturelles et scientifiques.
 
 ## Fonctionnalités clés
 
