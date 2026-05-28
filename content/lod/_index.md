@@ -24,4 +24,4 @@ params:
 
 ---
 
-Cette section présente les [données](./data/) intéropérables produites par l'IRAMAT. Ces dernières sont pour partie déposées sur [Zenodo](https://zenodo.org/communities/iramat/records?q=&l=list&p=1&s=10&sort=newest.)
+Cette section présente les [données](./data/) et [métadonnées](./metadata/) intéropérables produites par l'IRAMAT. Ces dernières sont pour partie déposées sur [Zenodo](https://zenodo.org/communities/iramat/records?q=&l=list&p=1&s=10&sort=newest.)
