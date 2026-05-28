@@ -2,11 +2,13 @@
 
 Utiles autant pour le IIIF que pour le RTI.
 
-## Liste
+## Liste des métadonnées
 
-La liste des métadonnées XMP et des métadonnées IPTC étendues à l'XMP[^1] lues par le webservice [iiif-loader](http://localhost:1313/iiif/webservices/iiif-loader/) est présentée dans le tableau ci-dessous.
+La liste des métadonnées XMP et des métadonnées IPTC étendues à l'XMP[^1] lues par le webservice [`iiif-loader`](http://localhost:1313/iiif/webservices/iiif-loader/), et bientôt par le webservice `rti-loader`, est présentée dans le tableau ci-dessous. 
 
-{{< tsvtable "data/metadata.tsv" >}}
+Pour le moment, seuls les champs notés **IN** = O sont lus lors de l'import[^2]:
+
+{{< tsvtable2 "data/metadata.tsv" >}}
 
 <center>
 
@@ -14,12 +16,15 @@ voir [code source](https://github.com/iramat/iramat-apps/blob/hugo-files/static/
 
 </center>
 
-## Edition
+## Édition des métadonnées
 
-Edition des métadonnées. Dans l'exemple ci-dessous, l'édition des métadonnées de l'image est faite dans **XnView**:
+Création et édition des métadonnées. 
 
+### Exemple de création de métadonnées
 
-### onglet `Description`
+Dans l'exemple ci-dessous, l'édition des métadonnées de l'image est faite dans le logiciel [XnView](https://www.xnview.com/en/):
+
+##### onglet `Description`
 
 - Document title
 - Author
@@ -28,10 +33,11 @@ Edition des métadonnées. Dans l'exemple ci-dessous, l'édition des métadonné
 
 <img width="700" alt="Image" src="https://github.com/user-attachments/assets/c46a21be-014c-47f3-99ed-d0f53343b556" />
 
-### onglet `Origin`
+#### onglet `Origin`
 
 - Source
 
 <img width="700" alt="Image" src="https://github.com/user-attachments/assets/af3309da-861d-45be-af6c-7cd5b6173c4c" />
 
 [^1]: `Iptc4xmpExt`
+[^2]: La liste complète des métadonnées, et plus spécifiquement des métadonnées des images, fait l'objet d'une [Discussion](https://github.com/orgs/iramat/discussions/51) au sein de l'IRAMAT
