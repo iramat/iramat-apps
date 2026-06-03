@@ -86,16 +86,16 @@
 
 > My LOD collection
 
-- [Données LOD](https://iramat.github.io/iramat-apps/lod/data/): My IIIF collection
-- [Métadonnées LOD](https://iramat.github.io/iramat-apps/lod/metadata/): My IIIF collection
+- [Données](https://iramat.github.io/iramat-apps/lod/data/): My IIIF collection
+- [Métadonnées](https://iramat.github.io/iramat-apps/lod/metadata/): My IIIF collection
 
-### Données LOD
+### Données
 
 > My IIIF collection
 
-- [NDame](https://iramat.github.io/iramat-apps/lod/data/ndame/): Documentation du webservice
+- [Sémantisation des données](https://iramat.github.io/iramat-apps/lod/data/semantisation/): My IIIF collection
 
-### Métadonnées LOD
+### Métadonnées
 
 > My IIIF collection
 
@@ -107,6 +107,7 @@
 
 - [Documentation RTI](https://iramat.github.io/iramat-apps/rti/doc/): My RTI collection
 - [Exemples de RTI](https://iramat.github.io/iramat-apps/rti/examples/): My IIIF collection
+- [Webservices RTI](https://iramat.github.io/iramat-apps/rti/webservices/): My IIIF collection
 
 ### Documentation RTI
 
@@ -118,4 +119,10 @@
 > My IIIF collection
 
 - [Monnaie](https://iramat.github.io/iramat-apps/rti/examples/monnaie/): My IIIF collection
+
+### Webservices RTI
+
+> My IIIF collection
+
+- [rti-loader](https://iramat.github.io/iramat-apps/rti/webservices/rti-loader/): Documentation du webservice
 
