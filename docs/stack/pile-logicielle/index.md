@@ -1,29 +1,26 @@
 # Pile logicielle<no value>
 
-Les applications de l'Iramat (<https://iramat-apps.cnrs.fr/>) décrites sur ce site web sont hebergées sur un [serveur web](#serveur)
+Les applications informatiques de l'Iramat (<https://iramat-apps.cnrs.fr/>) décrites sur ce site web sont hebergées sur un [serveur web](#serveur). L'utilisation de [GitHub](#github) permet de développer un écosystème _user-friendly_ autour des données et l'entrepôt [Zenodo](#zenodo) de publier des dépôts de données facilement citables et réutilisables
 
-## GitHub
-
-Le site web, ainsi que des données de référence, les présentations Quarto, les discussions, etc. sont hébergées sur le GitHub de l'IRAMAT: <https://github.com/iramat>
-
-### Site web
-
-Les données de ce site web, développé en Hugo, sont hébergées ici: <https://github.com/iramat/iramat-apps/tree/hugo-files/content>.
 
 ## Serveur
-> _server_, _Virtual Machine_, VM
 
-Instance Ubuntu 22.04 LTS hébergée au [Mésocentre](https://mesocentre.universite-paris-saclay.fr/) de l'Université Paris-Saclay
+Le serveur web[^1] est une instance Ubuntu 22.04 LTS hébergée au [Mésocentre](https://mesocentre.universite-paris-saclay.fr/) de l'Université Paris-Saclay, tutelle secondaire du LAPA-IRAMAT.
 
 ### Bases de données
 
+Le serveur web héberge une système de gestion de base de données (SGBD) PostgreSQL/Postgis v17.5. Ce SGBD héberge notamment la base de données (BDD) [CHIPS](#chips).
+
 #### CHIPS
 
-La VM héberge une système de gestion de base de données (SGBD) PostgreSQL/Postgis v17.5. Ce SGBD héberge la base de données (BDD) CHIPS, présentée dans le [site web dédié](https://iramat.github.io/chips/)
+Base de données CHImie en PaléoSidérurgie (CHIPS) pour le stockage et le partage de données chimiques
+
+{{< callout context="note" title="<https://iramat.github.io/chips/>" icon="outline/info-circle" >}}
+{{< /callout >}}
 
 #### Instance Numishare
 
-La VM héberge une instance Numishare (voir [documentation](https://iramat.github.io/iramat-dev/talks/2026-almacir-preparatory-meeting/pres/#/numishare))
+Le serveur web héberge une instance Numishare (voir [documentation](https://iramat.github.io/iramat-dev/talks/2026-almacir-preparatory-meeting/pres/#/numishare))
 
 ##### Modèle conceptuel de données
 
@@ -53,14 +50,41 @@ flowchart TB
 
 [^1]: liste des projets utilisant la pile logicielle Numishare: <https://numismatics.org/resources/>
 
-### IIIF
+### Imagerie scientifique
 
-Le serveur web héberge un serveur d'image Cantaloupe et un _viewer_ Mirador (CDN). Des _webservices_ Flask (v3.1.1) sont installés pour faciliter la transformation des images à l'isostandard IIIF [[lien interne](https://iramat.github.io/iramat-apps/iiif/)]
+Des _webservices_ Flask (v3.1.1) sont installés pour faciliter la transformation des images en IIIF et de visualiser des images RTI.
+
+#### IIIF
+
+Le serveur web héberge un serveur d'image Cantaloupe et un _viewer_ Mirador (CDN). 
+
+#### RTI
+
+Le serveur web héberge un visualiseur OpenLIME. 
 
 ### GeoServer
 
-Le serveur web héberge un GeoServer: <https://iramat.github.io/iramat-apps/geoserver/>
+Le serveur web héberge un GeoServer pour l'information spatiale
+
+{{< callout context="note" title="<https://iramat.github.io/iramat-apps/geoserver/>" icon="outline/info-circle" >}}
+{{< /callout >}}
+
+## GitHub
+
+Le site web, ainsi que des données de référence, les présentations Quarto, les discussions, etc. sont hébergées sur le GitHub de l'IRAMAT.
+
+{{< callout context="note" title="<https://github.com/iramat>" icon="outline/info-circle" >}}
+{{< /callout >}}
+
+### Site web
+
+Les données de ce site web, développé en Hugo, sont hébergées ici: <https://github.com/iramat/iramat-apps/tree/hugo-files/content>.
 
 ## Zenodo
 
-L'IRAMAT dispose d'une communauté Zenodo pour le dépôt des jeux de données, données de références, et de _pre prints_: <https://zenodo.org/communities/iramat>
+L'IRAMAT dispose d'une communauté Zenodo pour le dépôt des jeux de données, données de références, et de _pre prints_.
+
+{{< callout context="note" title="<https://zenodo.org/communities/iramat>" icon="outline/info-circle" >}}
+{{< /callout >}}
+
+[^1]: synonymes: _server_, _Virtual Machine_, VM, machine virtuelle

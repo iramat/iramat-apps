@@ -14,10 +14,10 @@
 
 > Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
 
-- [Backend](https://iramat.github.io/iramat-apps/docs/stack/): Documentation sur le IIIF
+- [Applications informatiques](https://iramat.github.io/iramat-apps/docs/stack/): Documentation sur le IIIF
 - [Données](https://iramat.github.io/iramat-apps/docs/structure/): Documentation sur le IIIF
 
-### Backend
+### Applications informatiques
 
 > Documentation sur le IIIF
 
