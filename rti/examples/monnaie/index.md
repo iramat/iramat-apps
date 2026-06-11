@@ -1,6 +1,6 @@
 # MonnaieLorem Ipsum
 
-Test RTI sur une monnaie médiévale islamique (faces [A](#face-a) et [B](#face-b))
+Dirham almohade (époque médiévale islamique): faces [A](#face-a) et [B](#face-b).
 
 ## Face A
 
