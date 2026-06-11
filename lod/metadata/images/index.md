@@ -6,7 +6,7 @@ Les métadonnées (_metadata_) des images sont autant utiles autant pour le IIIF
 
 La liste des métadonnées XMP et des métadonnées IPTC étendues à l'XMP[^1] lues par les webservices [`iiif-loader`](https://iramat.github.io/iramat-apps/iiif/webservices/iiif-loader/) ([IIIF](https://iramat.github.io/iramat-apps/iiif/)) et [`rti-loader`](https://iramat.github.io/iramat-apps/rti/webservices/rti-loader/) ([RTI](https://iramat.github.io/iramat-apps/rti/)), est présentée dans le tableau ci-dessous.
 
-Pour le moment, seuls les champs notés **IN** = O sont lus lors de l'import[^2]:
+Pour le moment[^2], seuls les champs notés **IN** = O sont lus lors de l'import:
 
 {{< tsvtable2 "data/metadata.tsv" >}}
 
