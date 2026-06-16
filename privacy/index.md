@@ -2,7 +2,7 @@
 
 <center>
 
-<img src="/logo.png" style="height: 90px;vertical-align: middle;"> 
+{{< simple-img src="/logo.png" alt="how-to-cite1" width="90" >}}
 
 </center>
 
