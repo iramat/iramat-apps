@@ -2,7 +2,7 @@
 
 <center>
 
-<img src="/logo.png" style="height: 80px;vertical-align: middle;"> 
+<img src="/logo.png" style="height: 90px;vertical-align: middle;"> 
 
 </center>
 
