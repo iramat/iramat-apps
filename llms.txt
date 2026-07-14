@@ -8,6 +8,7 @@
 - [GeoServer](https://iramat.github.io/iramat-apps/geoserver/): My IIIF collection
 - [IIIF](https://iramat.github.io/iramat-apps/iiif/): My IIIF collection
 - [LOD](https://iramat.github.io/iramat-apps/lod/): My LOD collection
+- [Numismatique](https://iramat.github.io/iramat-apps/numi/): My IIIF collection
 - [RTI](https://iramat.github.io/iramat-apps/rti/): My IIIF collection
 
 ## Documentation générale
@@ -100,6 +101,12 @@
 > My IIIF collection
 
 - [Métadonnées des images](https://iramat.github.io/iramat-apps/lod/metadata/images/): Documentation du webservice
+
+## Numismatique
+
+> My IIIF collection
+
+- [Numishare](https://iramat.github.io/iramat-apps/numi/numishare/): My IIIF collection
 
 ## RTI
 
