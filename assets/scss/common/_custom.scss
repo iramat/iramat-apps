@@ -34,3 +34,37 @@
   width: auto;
   flex-shrink: 0;
 }
+
+.small-home-col {
+  flex: 0 0 280px !important;
+  max-width: 280px !important;
+}
+
+.lod-tree {
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.lod-tree-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.lod-tree-list .lod-tree-list {
+  padding-left: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.lod-tree-item {
+  margin: 0.75rem 0;
+}
+
+.lod-tree-link {
+  display: block;
+  padding: 1rem 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}

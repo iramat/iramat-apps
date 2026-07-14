@@ -30,11 +30,11 @@ Ces solutions sont développées, ou utilisées, par l'IRAMAT.
 
 <table>
   <tr>
-    <td><b>Visualisation</b></td>
+    <td><b>Zoom profond</b></td>
     <td><b>Annotation</b></td>
   </tr>
   <tr>
-    <td>Zoom profond et navigation fluide dans des images haute résolution</td>
+    <td>Visualisation avec un zoom profond et navigation fluide dans des images haute résolution</td>
     <td>Ajout de métadonnées, de commentaires et de marques sur les images</td>
   </tr>
   <tr>

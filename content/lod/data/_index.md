@@ -1,8 +1,6 @@
 ---
-title: "Données LOD"
+title: "Données"
 description: "My IIIF collection"
-type: "iiif"
-layout: "docs"
 summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
@@ -21,4 +19,4 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Lorem Ipsum Ipsum Ips Pis
+Données connectées.

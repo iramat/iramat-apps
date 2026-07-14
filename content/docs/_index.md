@@ -7,6 +7,7 @@ lastmod: 2023-09-07T16:12:03+02:00
 draft: false
 weight: 999
 toc: true
+layout: docs
 params:
   seo:
     title: "" # custom title (optional)
@@ -19,6 +20,4 @@ params:
     startUrl: "/docs/stack/"
 ---
 
-Documentation générale des applications et données de l'IRAMAT. 
-<br><br>
-Les fonctionnalités, métadonnées, références, etc. peuvent être discutées dans les [_Issues_](https://github.com/iramat/iramat-apps/issues) de <https://github.com/iramat/iramat-apps/>
+L'infrastructuration des données produites au laboratoire permet d'améliorer leur gestion, automatisation et réutilisabilté. Structuration, métadonnées, fonctionnalités, etc. font l'objet de discussions sur le [GitHub de l'IRAMAT](https://github.com/orgs/iramat/discussions)

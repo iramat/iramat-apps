@@ -1,14 +1,13 @@
 ---
-title: "Applications informatiques"
-description: "Documentation sur le IIIF"
+title: "Numismatique"
+description: "My IIIF collection"
+layout: docs
 summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
 draft: false
 weight: 999
 toc: true
-sidebar:
-  collapsed: true
 params:
   seo:
     title: "" # custom title (optional)
@@ -21,4 +20,9 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Cette section présente les soultions logicielles mises en place par l'IRAMAT autour des données.
+<img src="https://raw.githubusercontent.com/iramat/iramat-dev/main/img/logo-iramat-numishare.png" alt="Numishare logo" style="height: 45px; vertical-align: middle;">
+
+---
+
+Cette section regroupe les informations portant sur les applications informatiques utilisées pour la numismatiques ([Numishare](./numishare/), etc.).
+

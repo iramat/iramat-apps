@@ -41,6 +41,12 @@
   weight = 15
 
 [[main]]
+  name = "Numismatique"
+  url = "/numi/"
+# url = "/docs/1.0/prologue/introduction/"
+  weight = 17
+
+[[main]]
   name = "GeoServer"
   url = "/geoserver/"
 # url = "/docs/1.0/prologue/introduction/"
@@ -52,11 +58,11 @@
 # url = "/docs/1.0/prologue/introduction/"
   weight = 30
 
-# [[main]]
-#   name = "Documentation générale"
-#   url = "/docs/"
-# # url = "/docs/1.0/prologue/introduction/"
-#   weight = 30
+[[main]]
+  name = "Infrastructuration"
+  url = "/docs/"
+# url = "/docs/1.0/prologue/introduction/"
+  weight = 40
 
 
 # [[menu.main]]

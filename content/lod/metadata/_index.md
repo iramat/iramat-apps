@@ -1,5 +1,5 @@
 ---
-title: "Métadonnées LOD"
+title: "Métadonnées"
 description: "My IIIF collection"
 type: "iiif"
 layout: "docs"

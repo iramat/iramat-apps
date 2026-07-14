@@ -1,14 +1,12 @@
 ---
-title: "Applications informatiques"
-description: "Documentation sur le IIIF"
+title: "Sémantisation des données"
+description: "My IIIF collection"
 summary: ""
 date: 2023-09-07T16:12:03+02:00
 lastmod: 2023-09-07T16:12:03+02:00
 draft: false
 weight: 999
 toc: true
-sidebar:
-  collapsed: true
 params:
   seo:
     title: "" # custom title (optional)
@@ -21,4 +19,4 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Cette section présente les soultions logicielles mises en place par l'IRAMAT autour des données.
+La sémantisation des données passe par la construction de graphes de connaissances, la construction de triples (et de requêtes SPARQL), etc.

@@ -1,0 +1,39 @@
+{{ define "main" }}
+  <article class="lod-section">
+    {{ $content := .Content }}
+    {{ $parts := split $content "<div class=\"footnotes\" role=\"doc-endnotes\">" }}
+
+    <div class="lod-intro">
+      {{ index $parts 0 | safeHTML }}
+    </div>
+
+    {{ if or .Sections .RegularPages }}
+      <div class="lod-tree">
+        {{ template "lod-tree" . }}
+      </div>
+    {{ end }}
+
+    {{ if gt (len $parts) 1 }}
+      <div class="footnotes" role="doc-endnotes">
+        {{ index $parts 1 | safeHTML }}
+      </div>
+    {{ end }}
+  </article>
+{{ end }}
+
+{{ define "lod-tree" }}
+  {{ $children := union .Sections .RegularPages }}
+  {{ if $children }}
+    <ul class="lod-tree-list">
+      {{ range $children.ByWeight }}
+        <li class="lod-tree-item">
+          <a class="lod-tree-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+
+          {{ if or .Sections .RegularPages }}
+            {{ template "lod-tree" . }}
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}
