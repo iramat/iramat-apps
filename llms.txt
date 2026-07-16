@@ -6,10 +6,11 @@
 - [About Iramat-apps](https://iramat.github.io/iramat-apps/privacy/): 
 - [Documentation générale](https://iramat.github.io/iramat-apps/docs/): Browse guides and reference documentation that explain how to use this site’s features, configure Doks, and publish clear, user-focused content.
 - [GeoServer](https://iramat.github.io/iramat-apps/geoserver/): My IIIF collection
-- [IIIF](https://iramat.github.io/iramat-apps/iiif/): My IIIF collection
+- [IIIF](https://iramat.github.io/iramat-apps/iiif-old/): My IIIF collection
+- [Imagerie](https://iramat.github.io/iramat-apps/imagery/): My IIIF collection
 - [LOD](https://iramat.github.io/iramat-apps/lod/): My LOD collection
 - [Numismatique](https://iramat.github.io/iramat-apps/numi/): My IIIF collection
-- [RTI](https://iramat.github.io/iramat-apps/rti/): My IIIF collection
+- [RTI](https://iramat.github.io/iramat-apps/rti-old/): My IIIF collection
 
 ## Documentation générale
 
@@ -53,10 +54,10 @@
 
 > My IIIF collection
 
-- [Documentation IIIF](https://iramat.github.io/iramat-apps/iiif/doc/): My IIIF collection
-- [Exemples de IIIF](https://iramat.github.io/iramat-apps/iiif/examples/): My IIIF collection
-- [Liste des visualiseurs IIIF](https://iramat.github.io/iramat-apps/iiif/list/): My IIIF collection
-- [Webservices IIIF](https://iramat.github.io/iramat-apps/iiif/webservices/): My IIIF collection
+- [Documentation IIIF](https://iramat.github.io/iramat-apps/iiif-old/doc/): My IIIF collection
+- [Exemples de IIIF](https://iramat.github.io/iramat-apps/iiif-old/examples/): My IIIF collection
+- [Liste des visualiseurs IIIF](https://iramat.github.io/iramat-apps/iiif-old/list/): My IIIF collection
+- [Webservices IIIF](https://iramat.github.io/iramat-apps/iiif-old/webservices/): My IIIF collection
 
 ### Documentation IIIF
 
@@ -67,9 +68,9 @@
 
 > My IIIF collection
 
-- [Collection](https://iramat.github.io/iramat-apps/iiif/examples/collection/): My IIIF collection
-- [Compare](https://iramat.github.io/iramat-apps/iiif/examples/compare/): My IIIF collection
-- [Séquence](https://iramat.github.io/iramat-apps/iiif/examples/sequence/): My IIIF collection
+- [Collection](https://iramat.github.io/iramat-apps/iiif-old/examples/collection/): My IIIF collection
+- [Compare](https://iramat.github.io/iramat-apps/iiif-old/examples/compare/): My IIIF collection
+- [Séquence](https://iramat.github.io/iramat-apps/iiif-old/examples/sequence/): My IIIF collection
 
 ### Liste des visualiseurs IIIF
 
@@ -80,8 +81,32 @@
 
 > My IIIF collection
 
-- [iiif-compare](https://iramat.github.io/iramat-apps/iiif/webservices/iiif-compare/): Documentation du webservice
-- [iiif-loader](https://iramat.github.io/iramat-apps/iiif/webservices/iiif-loader/): Documentation du webservice
+- [iiif-compare](https://iramat.github.io/iramat-apps/iiif-old/webservices/iiif-compare/): Documentation du webservice
+- [iiif-loader](https://iramat.github.io/iramat-apps/iiif-old/webservices/iiif-loader/): Documentation du webservice
+
+## Imagerie
+
+> My IIIF collection
+
+- [IIIF](https://iramat.github.io/iramat-apps/imagery/iiif/): My IIIF collection
+- [RTI](https://iramat.github.io/iramat-apps/imagery/rti/): My IIIF collection
+
+### IIIF
+
+> My IIIF collection
+
+- [Documentation IIIF](https://iramat.github.io/iramat-apps/imagery/iiif/doc/): My IIIF collection
+- [Exemples de IIIF](https://iramat.github.io/iramat-apps/imagery/iiif/examples/): My IIIF collection
+- [Liste des visualiseurs IIIF](https://iramat.github.io/iramat-apps/imagery/iiif/list/): My IIIF collection
+- [Webservices IIIF](https://iramat.github.io/iramat-apps/imagery/iiif/webservices/): My IIIF collection
+
+### RTI
+
+> My IIIF collection
+
+- [Documentation RTI](https://iramat.github.io/iramat-apps/imagery/rti/doc/): My RTI collection
+- [Exemples de RTI](https://iramat.github.io/iramat-apps/imagery/rti/examples/): My IIIF collection
+- [Webservices RTI](https://iramat.github.io/iramat-apps/imagery/rti/webservices/): My IIIF collection
 
 ## LOD
 
@@ -112,9 +137,9 @@
 
 > My IIIF collection
 
-- [Documentation RTI](https://iramat.github.io/iramat-apps/rti/doc/): My RTI collection
-- [Exemples de RTI](https://iramat.github.io/iramat-apps/rti/examples/): My IIIF collection
-- [Webservices RTI](https://iramat.github.io/iramat-apps/rti/webservices/): My IIIF collection
+- [Documentation RTI](https://iramat.github.io/iramat-apps/rti-old/doc/): My RTI collection
+- [Exemples de RTI](https://iramat.github.io/iramat-apps/rti-old/examples/): My IIIF collection
+- [Webservices RTI](https://iramat.github.io/iramat-apps/rti-old/webservices/): My IIIF collection
 
 ### Documentation RTI
 
@@ -125,11 +150,11 @@
 
 > My IIIF collection
 
-- [Monnaie](https://iramat.github.io/iramat-apps/rti/examples/monnaie/): My IIIF collection
+- [Monnaie](https://iramat.github.io/iramat-apps/rti-old/examples/monnaie/): My IIIF collection
 
 ### Webservices RTI
 
 > My IIIF collection
 
-- [rti-loader](https://iramat.github.io/iramat-apps/rti/webservices/rti-loader/): Documentation du webservice
+- [rti-loader](https://iramat.github.io/iramat-apps/rti-old/webservices/rti-loader/): Documentation du webservice
 
