@@ -1,0 +1,18 @@
+---
+title: "iiif-compare"
+date: 2026-02-17T13:03:14+01:00
+description: "Documentation du webservice"
+draft: false
+params:
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
+---
+
+Ce webservice est accessible ici: <https://iramat-apps.cnrs.fr/iiif-compare/> 
+
+Le webservice `iiif-compare` permet de superposer 2+ images avec un curseur de comparaison (_curtain view_) pour faciliter les comparaisons.
+
+Le webservice `iiif-compare` prend des `info.json` en entrée, ces derniers doivent donc être créés en amont (avec `iiif-loader` par exemple)

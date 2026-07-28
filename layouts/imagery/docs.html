@@ -7,10 +7,10 @@
       {{ index $parts 0 | safeHTML }}
     </div>
 
-    {{ $sections := .Sections }}
-    {{ if $sections }}
+    {{ $pages := union .Sections .RegularPages }}
+    {{ if $pages }}
       <div class="iiif-columns">
-        {{ range $sections.ByTitle }}
+        {{ range $pages.ByTitle }}
           <div class="iiif-column">
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           </div>

@@ -29,16 +29,22 @@
   url = "/tutorial/lorem/"
 
 [[main]]
-  name = "IIIF"
-  url = "/iiif/"
+  name = "Imagerie"
+  url = "/imagery/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
-[[main]]
-  name = "RTI"
-  url = "/rti/"
-# url = "/docs/1.0/prologue/introduction/"
-  weight = 15
+# [[main]]
+#   name = "IIIF"
+#   url = "/iiif/"
+# # url = "/docs/1.0/prologue/introduction/"
+#   weight = 10
+
+# [[main]]
+#   name = "RTI"
+#   url = "/rti/"
+# # url = "/docs/1.0/prologue/introduction/"
+#   weight = 15
 
 [[main]]
   name = "Numismatique"

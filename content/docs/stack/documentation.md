@@ -30,9 +30,9 @@ Le serveur web héberge différentes Base de données (BDD) :
 
   - **ALMACIR** pour l'étude des monnayages de l'Islam médiéval en Occident <br><p style="text-align: right;"><a href="https://iramat.github.io/almacir/"><img src="https://raw.githubusercontent.com/iramat/almacir/master/img/logo.png" style="height: 30px;vertical-align: middle;"> Visitez le site web dédié</a></p>
 
-### Imagerie scientifique
+### Imagerie
 
-Des _webservices_ Flask (v3.1.1) sont installés pour faciliter la transformation des images en IIIF et de visualiser des images RTI.
+Des _webservices_ Flask (v3.1.1) sont installés pour faciliter la transformation de l'imagerie scientifique (ex : Microscopie optique, MEB-EDS, Raman) en IIIF et pour exposer des images RTI sur un autre visualiseur interactif.
 
 #### IIIF
 
@@ -40,7 +40,7 @@ Le serveur web héberge un serveur d'image Cantaloupe et un _viewer_ Mirador (CD
 
 #### RTI
 
-Le serveur web héberge un visualiseur OpenLIME. 
+Le serveur web héberge un visualiseur OpenLIME.
 
 ### GeoServer
 

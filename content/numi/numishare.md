@@ -50,5 +50,5 @@ Une version de démonstration est accessible ici: <https://iramat-apps.cnrs.fr/n
 </center>
 
 [^3]: _Extensible Markup Language_, la principale extension du HTML
-[^1]: _NUmismatic Description Standard_ ou _Numismatic Database Standard_: c'est l'ensemble de noms de champs suggérés pour l'enregistrement d'informations numismatiques dans une BDD.
-[^2]: _Extensible Styles Language Transform_, pour transformer des fichiers XML en HTML, HTML table, PDF, etc. 
+[^1]: _NUmismatic Description Standard_ ou _Numismatic Database Standard_: officiellement reconnu comme le système d'organisation des connaissances préféré pour la numismatique, grâce au patronage du <a href="https://inc-cin.org/" target="_blank">Conseil numismatique international (INC-CIN)</a> en fournissant un système d'organisation des connaissances (Knowledge Organization System, KOS) fondé sur le Linked Open Data : c'est l'ensemble de noms de champs suggérés pour l'enregistrement d'informations numismatiques dans une BDD.
+[^2]: _Extensible Styles Language Transform_, pour transformer des fichiers XML en HTML, HTML table, PDF, etc.
