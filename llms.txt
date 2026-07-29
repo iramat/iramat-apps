@@ -125,7 +125,8 @@
 
 > My IIIF collection
 
-- [Métadonnées des images](https://iramat.github.io/iramat-apps/lod/metadata/images/): Documentation du webservice
+- [Métadonnées liées aux images](https://iramat.github.io/iramat-apps/lod/metadata/images/): Documentation du webservice
+- [Métadonnées liées aux objets physiques](https://iramat.github.io/iramat-apps/lod/metadata/objets_physiques/): Documentation du webservice
 
 ## Numismatique
 

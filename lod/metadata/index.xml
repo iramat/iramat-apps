@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Métadonnées on Iramat-apps</title><link>https://iramat.github.io/iramat-apps/lod/metadata/</link><description>Recent content in Métadonnées on Iramat-apps</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2026 Thulite</copyright><lastBuildDate>Tue, 17 Feb 2026 13:03:14 +0100</lastBuildDate><atom:link href="https://iramat.github.io/iramat-apps/lod/metadata/index.xml" rel="self" type="application/rss+xml"/><item><title>Métadonnées des images</title><link>https://iramat.github.io/iramat-apps/lod/metadata/images/</link><pubDate>Tue, 17 Feb 2026 13:03:14 +0100</pubDate><guid>https://iramat.github.io/iramat-apps/lod/metadata/images/</guid><description>&lt;p>Les métadonnées (&lt;em>metadata&lt;/em>) des images sont autant utiles autant pour le IIIF que pour le RTI.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Métadonnées on Iramat-apps</title><link>https://iramat.github.io/iramat-apps/lod/metadata/</link><description>Recent content in Métadonnées on Iramat-apps</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2026 Thulite</copyright><lastBuildDate>Tue, 17 Feb 2026 13:03:14 +0100</lastBuildDate><atom:link href="https://iramat.github.io/iramat-apps/lod/metadata/index.xml" rel="self" type="application/rss+xml"/><item><title>Métadonnées liées aux images</title><link>https://iramat.github.io/iramat-apps/lod/metadata/images/</link><pubDate>Tue, 17 Feb 2026 13:03:14 +0100</pubDate><guid>https://iramat.github.io/iramat-apps/lod/metadata/images/</guid><description>&lt;p>Les métadonnées (&lt;em>metadata&lt;/em>) des images sont autant utiles autant pour le IIIF que pour le RTI.&lt;/p>
 &lt;h2 id="liste-des-métadonnées">Liste des métadonnées&lt;/h2>
 &lt;p>La liste des métadonnées XMP et des métadonnées IPTC étendues à l&amp;rsquo;XMP&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> lues par les webservices 
 
@@ -8,4 +8,53 @@
 
 &lt;a class="link link--text" href="https://iramat.github.io/iramat-apps/rti/webservices/rti-loader/" rel="external">&lt;code>rti-loader&lt;/code>&lt;/a> (
 
-&lt;a class="link link--text" href="https://iramat.github.io/iramat-apps/rti/" rel="external">RTI&lt;/a>), est présentée dans le tableau ci-dessous.&lt;/p></description></item></channel></rss>
+&lt;a class="link link--text" href="https://iramat.github.io/iramat-apps/rti/" rel="external">RTI&lt;/a>), est présentée dans le tableau ci-dessous.&lt;/p></description></item><item><title>Métadonnées liées aux objets physiques</title><link>https://iramat.github.io/iramat-apps/lod/metadata/objets_physiques/</link><pubDate>Tue, 17 Feb 2026 13:03:14 +0100</pubDate><guid>https://iramat.github.io/iramat-apps/lod/metadata/objets_physiques/</guid><description>&lt;link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+
+&lt;script src="https://code.jquery.com/jquery-3.7.1.min.js">&lt;/script>
+&lt;script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js">&lt;/script>
+
+&lt;style>
+ .tsvtable-wrapper {
+ width: 100%;
+ overflow-x: auto;
+ }
+
+ .tsvtable-wrapper table {
+ width: max-content;
+ min-width: 100%;
+ }
+
+ .tsvtable-wrapper th,
+ .tsvtable-wrapper td {
+ white-space: nowrap;
+ }
+&lt;/style>
+
+&lt;div class="tsvtable-wrapper">
+ &lt;table
+ id="tsvtable-0"
+ class="display nowrap"
+ style="width:100%"
+ data-filter-column="Niveau"
+ data-filter-value="Objet physique">
+ &lt;thead>&lt;/thead>
+ &lt;tbody>&lt;/tbody>
+ &lt;/table>
+&lt;/div>
+
+&lt;script>
+(async function () {
+ const url = "\/iramat-apps\/data\/metadata_revised.tsv";
+ const tableId = "tsvtable-0";
+
+ const table = document.getElementById(tableId);
+
+ const filterColumn = table.dataset.filterColumn.trim() || null;
+ const filterValue = table.dataset.filterValue.trim() || null;
+
+ const resp = await fetch(url);
+
+ if (!resp.ok) {
+ console.error("TSV fetch failed:", resp.status, resp.statusText, url);
+ document.getElementById(tableId).outerHTML =
+ `&lt;p>Could not load TSV (${resp.status}).&lt;/p></description></item></channel></rss>

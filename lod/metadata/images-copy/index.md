@@ -1,4 +1,4 @@
-# Métadonnées liées aux images<no value>
+# Métadonnées des images<no value>
 
 Les métadonnées (_metadata_) des images sont autant utiles autant pour le IIIF que pour le RTI.
 
