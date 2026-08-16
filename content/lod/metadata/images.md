@@ -1,5 +1,5 @@
 ---
-title: "Métadonnées des images"
+title: "Métadonnées liées aux images"
 date: 2026-02-17T13:03:14+01:00
 description: "Documentation du webservice"
 draft: false
@@ -19,11 +19,11 @@ La liste des métadonnées XMP et des métadonnées IPTC étendues à l'XMP[^1] 
 
 Pour le moment[^2], seuls les champs notés **IN** = O sont lus lors de l'import:
 
-{{< tsvtable2 "data/metadata.tsv" >}}
+{{< tsvtable3 "data/metadata.tsv" "IN" "O" >}}
 
 <center>
 
-voir [code source](https://github.com/iramat/iramat-apps/blob/hugo-files/static/data/metadata.tsv) du tableau
+voir: [code source](https://github.com/iramat/iramat-apps/blob/hugo-files/static/data/metadata.tsv) du tableau, [Discussion](https://github.com/orgs/iramat/discussions/57) sur GitHub.
 
 </center>
 

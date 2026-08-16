@@ -1,15 +1,37 @@
-IN 	Champ (alias) 	Champ (standard)	Namespace	Exemples de valeurs	Description
-O 	Document Title	dc:title	Dublin Core	Céramique 401.003	Image. Nom ou titre principal de l'image ou de l'objet représenté
-N 	Document Identifiant	dc:identifier	Dublin Core	https://doi.org/10.5281/zenodo.15829515	Image. Identifiant unique de l'image (URL, DOI, UUID, plein texte, etc.)
-N 	Author	dc:creator	Dublin Core	John Doe, Jane Smith	Image. Nom du créateur de l'image (photographe)
-O 	Description	dc:description	Dublin Core	Une vue de la coupe transversale	Image. Description textuelle du contenu de l'image
-N 	Keywords	dc:subject	Dublin Core	art, painting, museum	Image. Mots-clés décrivant le contenu
-O 	Source	dc:source	Dublin Core	https://doi.org/10.5281/zenodo.15829515	Image. Source ou référence liée à l'image ou à l'objet
-O 	Image Rights	dc:rights	Dublin Core	CC-BY 4.0	Image. Droits d'utilisation ou licence de l'image
-O 	Copyright Notice	Iptc4xmpExt:CopyrightNotice	IPTC Photo Metadata Extension	© 2026 IRAMAT-CNRS, Tous droits réservés	Image. Identifiant apposé sur les copies de l'œuvre pour informer le monde de la propriété du droit d'auteur.
-N 	References	dcterms:references	Dublin Core Terms	https://example.org/publication	Références bibliographiques ou ressources externes liées
-N 	Collection Owner	Iptc4xmpExt:AOSource	IPTC Photo Metadata Extension	Université Paris-Saclay	Objet. Propriétaire de la collection dans laquelle l'objet représenté sur l'image est inclus
-N 	Collection Location	Iptc4xmpExt:AOLocation	IPTC Photo Metadata Extension	Paris, France	Objet. Localisation physique de la collection dans laquelle l'objet représenté sur l'image est inclus
-N 	Object Identifier/Inventory Number	Iptc4xmpExt:AOSourceInvNo	IPTC Photo Metadata Extension	MAN 1887.42.1	Image. Identifiant unique de l'objet archéologique (numéro d'inventaire)
-N 	Catalog URL	Iptc4xmpExt:AOCatalogURL	IPTC Photo Metadata Extension	https://example.com/catalog/12345	Image. URL du catalogue en ligne de la collection dans laquelle l'objet représenté sur l'image est inclus
-N 	Temporal Coverage	dcterms:temporal	Dublin Core Terms	Late Bronze Age	Image. Période chronologique associée à l'objet
+IN	Niveau	Champ (alias)	Champ (standard)	Namespace	Exemples de valeurs	Description
+O	Image	Document Title	dc:title	Dublin Core	Macro-photographie de la lame de l'épée MAN 1887.42.1	Titre propre à l'image ou au document visuel. Il doit identifier la vue, la prise de vue ou le fichier, et non servir de titre principal à l'objet physique représenté.
+N	Image	Image Identifier	dc:identifier	Dublin Core	https://images.example.org/id/IMG-000145	Identifiant unique et stable de l'image elle-même : URI, UUID, identifiant interne ou DOI lorsque l'image est publiée comme ressource autonome.
+N	Image	Photographer / Image Creator	dc:creator	Dublin Core	John Doe	Personne ou organisme responsable de la création de l'image : photographe, opérateur de numérisation, illustrateur ou laboratoire.
+O	Image	Image Description	dc:description	Dublin Core	Vue macroscopique du tranchant, éclairage rasant, face A	Description du contenu visuel et des conditions de représentation pertinentes : vue, orientation, détail, échelle, éclairage ou technique d'acquisition.
+N	Image	Keywords	dc:subject	Dublin Core	épée; macro-photographie; corrosion; tranchant	Mots-clés décrivant l'image et ce qu'elle montre. Les termes peuvent porter sur la technique d'imagerie, la partie visible ou les phénomènes observables.
+N	Image	Date Created	exif:DateTimeOriginal	EXIF	2026:07:15 14:32:10	Date et heure de création de l'image ou de la prise de vue, lorsque cette information est disponible.
+N	Image	Image Source	dc:source	Dublin Core	Fichier RAW IMG_0145.NEF	Ressource dont l'image dérive directement : fichier RAW, négatif, diapositive, scan source ou image d'archive. Ne pas utiliser ce champ pour la notice de l'objet ou un jeu de données scientifique associé.
+O	Image	Image Rights	dc:rights	Dublin Core	CC BY 4.0	Droits d'utilisation ou licence applicables à l'image.
+O	Image	Copyright Notice	Iptc4xmpExt:CopyrightNotice	IPTC Photo Metadata Extension	© 2026 IRAMAT-CNRS	Mention de copyright à afficher avec l'image. Elle précise le titulaire des droits et, si nécessaire, l'année de création ou de publication.
+N	Image	Rights Web Statement	xmpRights:WebStatement	XMP Rights Management	https://creativecommons.org/licenses/by/4.0/	URL d'une page décrivant les droits ou la licence applicables à l'image.
+N	Image	Credit Line	photoshop:Credit	Adobe Photoshop XMP	IRAMAT-CNRS / Musée archéologique national	Formule de crédit recommandée lors de l'affichage ou de la réutilisation de l'image.
+N	Objet physique	Object Title	Iptc4xmpExt:AOTitle	IPTC Photo Metadata Extension	Épée en fer	Nom ou titre de l'objet physique représenté dans l'image.
+N	Objet physique	Object Type	iramat:PhysicalObjectType	IRAMAT XMP Extension	épée	Type ou catégorie de l'objet physique représenté, idéalement à partir d'un vocabulaire contrôlé.
+N	Objet physique	Object Identifier / Inventory Number	Iptc4xmpExt:AOSourceInvNo	IPTC Photo Metadata Extension	MAN 1887.42.1	Numéro d'inventaire ou autre identifiant institutionnel de l'objet physique représenté.
+N	Objet physique	Physical Object URI	iramat:PhysicalObjectURI	IRAMAT XMP Extension	https://collections.example.org/object/MAN-1887-42-1	URI stable identifiant l'objet physique ou sa notice d'autorité dans un système d'information patrimonial.
+N	Objet physique	Collection Owner	Iptc4xmpExt:AOSource	IPTC Photo Metadata Extension	Musée archéologique national	Institution propriétaire, dépositaire ou responsable de la collection à laquelle appartient l'objet physique.
+N	Objet physique	Collection Location	Iptc4xmpExt:AOLocation	IPTC Photo Metadata Extension	Saint-Germain-en-Laye, France	Lieu de conservation actuel de l'objet ou de la collection.
+N	Objet physique	Catalog URL	Iptc4xmpExt:AOCatalogURL	IPTC Photo Metadata Extension	https://collections.example.org/catalog/MAN-1887-42-1	URL de la notice de catalogue décrivant l'objet physique.
+N	Objet physique	Object Creator	Iptc4xmpExt:AOCreator	IPTC Photo Metadata Extension	Inconnu	Créateur, atelier, culture ou autorité de production attribuée à l'objet, lorsque cette information est connue.
+N	Objet physique	Object Creation Date	Iptc4xmpExt:AODateCreated	IPTC Photo Metadata Extension	VIIIe siècle	Date ou période de création de l'objet physique telle qu'elle est enregistrée dans la documentation de collection.
+N	Objet physique	Temporal Coverage	dcterms:temporal	Dublin Core Terms	Haut Moyen Âge	Période chronologique ou intervalle historique associé à l'objet physique. Peut utiliser une forme textuelle ou un intervalle normalisé dans le système source.
+N	Objet physique	Object Description	iramat:PhysicalObjectDescription	IRAMAT XMP Extension	Épée en fer à lame droite, conservée avec corrosion de surface	Description synthétique de l'objet physique. Elle doit rester distincte de la description de la photographie.
+N	Objet physique	Material	iramat:Material	IRAMAT XMP Extension	fer	Matériau principal ou matériaux constitutifs de l'objet physique, idéalement exprimés au moyen d'un vocabulaire contrôlé.
+N	Objet physique	Production Place	iramat:ProductionPlace	IRAMAT XMP Extension	Europe occidentale	Lieu de production ou d'origine attribué à l'objet physique, lorsqu'il est connu.
+N	Objet numérique associé	Related Dataset	iramat:RelatedDataset	IRAMAT XMP Extension	https://doi.org/10.5281/zenodo.15829515	URI ou DOI d'un jeu de données associé à l'objet ou à l'image, par exemple un tableau d'analyses élémentaires déposé sur Zenodo.
+N	Objet numérique associé	Related Publication	dcterms:isReferencedBy	Dublin Core Terms	https://doi.org/10.1016/j.jas.2026.000001	Publication scientifique, rapport ou autre ressource bibliographique qui cite, décrit ou interprète l'image, l'objet ou les données associées.
+N	Objet numérique associé	Related IIIF Manifest	iramat:RelatedIIIFManifest	IRAMAT XMP Extension	https://iiif.example.org/manifest/IMG-000145.json	URI du manifeste IIIF Presentation décrivant l'image ou l'ensemble documentaire auquel elle appartient.
+N	Objet numérique associé	Related RTI Viewer	iramat:RelatedRTI	IRAMAT XMP Extension	https://example.org/view/rti/sword-0001/	URI d'un viewer RTI ou d'une ressource Reflectance Transformation Imaging associée au même objet.
+N	Objet numérique associé	Related 3D Model	iramat:Related3DModel	IRAMAT XMP Extension	https://doi.org/10.5281/zenodo.0000000	URI d'un modèle 3D associé à l'objet physique.
+N	Objet numérique associé	Related API	iramat:RelatedAPI	IRAMAT XMP Extension	https://api.example.org/objects/MAN-1887-42-1/analyses	Endpoint d'API donnant accès à des métadonnées, mesures ou analyses associées à l'objet ou à l'image.
+N	Objet numérique associé	Related Digital Object	iramat:RelatedDigitalObject	IRAMAT XMP Extension	https://example.org/resource/12345	Relation générique vers une autre ressource numérique associée lorsqu'aucune propriété plus précise ne convient.
+N	Objet numérique associé	Digital Object Identifier	dc:identifier	Dublin Core	https://doi.org/10.5281/zenodo.15829515	Identifiant pérenne de l'objet numérique associé, utilisé lorsque cette ressource est décrite comme entité distincte dans le système de métadonnées.
+N	Objet numérique associé	Digital Object Type	dc:type	Dublin Core	Dataset	Nature de la ressource numérique associée : Dataset, Text, 3DModel, IIIFManifest, Software, API, etc.
+N	Objet numérique associé	Digital Object Format	dc:format	Dublin Core	text/csv	Format ou type MIME de la ressource numérique associée.
+N	Objet numérique associé	Relation Type	dcterms:relation	Dublin Core Terms	isDocumentedBy	Type de relation entre l'image, l'objet physique et la ressource numérique. Employer de préférence une valeur contrôlée et explicite plutôt qu'une simple liste d'URL non qualifiées.
+N	Tous niveaux	References	dcterms:references	Dublin Core Terms	https://example.org/publication	Références externes explicitement citées par la ressource décrite. Ce champ générique doit être utilisé seulement lorsqu'une propriété relationnelle plus précise n'est pas disponible.

@@ -1,0 +1,127 @@
+{{/* Accepts arguments in the shortcode call: {{< tsvtable3 "path/to/data.tsv" "Column Name" "Filter Value" >}} to filter the table on the fly, see: C:\Users\TH282424\Rprojects\iramat-apps\content\lod\metadata\images.md */}}
+
+<link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+
+<style>
+  .tsvtable-wrapper {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .tsvtable-wrapper table {
+    width: max-content;
+    min-width: 100%;
+  }
+
+  .tsvtable-wrapper th,
+  .tsvtable-wrapper td {
+    white-space: nowrap;
+  }
+</style>
+
+<div class="tsvtable-wrapper">
+  <table
+    id="tsvtable-{{ .Ordinal }}"
+    class="display nowrap"
+    style="width:100%"
+    data-filter-column="{{ .Get 1 }}"
+    data-filter-value="{{ .Get 2 }}">
+    <thead></thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<script>
+(async function () {
+  const url = "{{ .Get 0 | relURL }}";
+  const tableId = "tsvtable-{{ .Ordinal }}";
+
+  const table = document.getElementById(tableId);
+
+  const filterColumn = table.dataset.filterColumn.trim() || null;
+  const filterValue = table.dataset.filterValue.trim() || null;
+
+  const resp = await fetch(url);
+
+  if (!resp.ok) {
+    console.error("TSV fetch failed:", resp.status, resp.statusText, url);
+    document.getElementById(tableId).outerHTML =
+      `<p>Could not load TSV (${resp.status}).</p>`;
+    return;
+  }
+
+  const text = await resp.text();
+
+  const lines = text.trim().split(/\r?\n/);
+  if (lines.length === 0) return;
+
+  const headers = lines[0].split("\t").map(value => value.trim());
+
+  const rows = lines.slice(1).map(line =>
+    line.split("\t").map(value => value.trim())
+  );
+
+  const normalizedRows = rows.map(cols => {
+    const out = Array(headers.length).fill("");
+    for (let i = 0; i < headers.length; i++) {
+      out[i] = cols[i] ?? "";
+    }
+    return out;
+  });
+
+  table.querySelector("thead").innerHTML =
+    "<tr>" + headers.map(h => `<th>${escapeHtml(h)}</th>`).join("") + "</tr>";
+
+  table.querySelector("tbody").innerHTML = normalizedRows.map(cols =>
+    "<tr>" + cols.map(c => `<td>${escapeHtml(c)}</td>`).join("") + "</tr>"
+  ).join("");
+
+  const columns = headers.map(() => ({ defaultContent: "" }));
+
+const dataTable = new DataTable("#" + tableId, {
+  paging: true,
+  searching: true,
+  fixedHeader: true,
+  columns,
+  order: []
+});
+
+// Apply an exact filter to the requested column
+if (filterColumn !== null && filterValue !== null) {
+  const columnIndex = headers.findIndex(
+    header => header.trim().toLowerCase() === filterColumn.trim().toLowerCase()
+  );
+
+  if (columnIndex !== -1) {
+    const escapedValue = String(filterValue)
+      .replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+    dataTable
+      .column(columnIndex)
+      .search("^" + escapedValue + "$", {
+        regex: true,
+        smart: false,
+        caseInsensitive: false
+      })
+      .draw();
+  } else {
+    console.warn(
+      `TSV filter column "${filterColumn}" was not found. Available columns:`,
+      headers
+    );
+  }
+}
+
+  function escapeHtml(s) {
+    return String(s)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+})();
+</script>

@@ -26,16 +26,16 @@ Le IIIF (_International Image Interoperability Framework_) est un standard ouver
 
 ## Fonctionnalités clés
 
-Ces solutions sont développées, ou utilisées, par l'IRAMAT.
+Ces solutions sont utilisées par l'IRAMAT: zoom profond[^2], métadonnées[^4] et annotations[^3]. Les images IIIF peuvent aussi être réunies en séquences et collections ([exemples](../examples/)).
 
 <table>
   <tr>
     <td><b>Zoom profond</b></td>
-    <td><b>Annotation</b></td>
+    <td><b>Métadonnées</b></td>
   </tr>
   <tr>
-    <td>Visualisation avec un zoom profond et navigation fluide dans des images haute résolution</td>
-    <td>Ajout de métadonnées, de commentaires et de marques sur les images</td>
+    <td>Visualisation avec un zoom profond et navigation fluide dans des images haute résolution.</td>
+    <td>Les métadonnées des images (auteurs, licence, etc.) sont enregistrées dans le <em>manifest</em> JSON</td>
   </tr>
   <tr>
     <td style="text-align: center; vertical-align: middle;">
@@ -45,21 +45,45 @@ Ces solutions sont développées, ou utilisées, par l'IRAMAT.
         height="540"
         style="border:none;">
       </iframe>
-      <br> Zoom profond dans une métallographie d'une <em>currency-bar</em> après attaque Öberhoffer.
+      <br> Zoom profond dans une métallographie d'une <em>currency-bar</em> (barre de fer) gauloise après attaque Öberhoffer.
     </td>
-    <td style="text-align: center; vertical-align: middle;"> 
+    <td style="text-align: center; vertical-align: middle;">
       <iframe
-        src="https://iramat-apps.cnrs.fr/view/acies/seax_sample_process.html"
+        src="https://iramat-apps.cnrs.fr/view/numismatic/1986.416_landing_attribution.html"
         width="100%"
         height="540"
         style="border:none;">
       </iframe>
-      <br> Annotations IIIF sur une scramasaxe du 6<sup>e</sup> s. CE, trouvée dans une inhumation (Alsace, France)
+      <br> Métadonnées d'attibution d'un <em>dirham</em> conservé à la Bibliothèque Nationale de France (BnF).
     </td>
+  </tr>
+  <tr>
+    <td><b>Annotations</b></td>
+    <td><b>XXXX</b></td>
+  </tr>
+  <tr>
+    <td>Annotation de régions de l'image qui peuvent être partagées indépendamment sans perte du contexte (l'image entière)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;"> 
+          <iframe
+            src="https://iramat-apps.cnrs.fr/view/acies/seax_sample_process.html"
+            width="100%"
+            height="540"
+            style="border:none;">
+          </iframe>
+         <br> Annotations IIIF sur une scramasaxe du 6<sup>e</sup> s. CE, trouvée dans une inhumation (Alsace, France)
+    </td>
+    <td></td>
   </tr>
 </table>
 
 [^1]: Exemples de cas d’usage: collections culturelles et scientifiques éparpillées, caractérisation de métallographies, etc.
+[^2]: source: <https://iramat-apps.cnrs.fr/view/_test/barre531ober-deepzoom_landing_ex.html>
+[^3]: source: <https://iramat-apps.cnrs.fr/view/acies/seax_sample_process.html>
+[^4]: source: <https://iramat-apps.cnrs.fr/view/numismatic/1986.416_landing_attribution.html>
+
 
 
 ## Documentation externe

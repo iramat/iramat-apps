@@ -20,4 +20,4 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Ces exemples ont été réalisés avec les webservices IIIF
+Ces exemples montrent comment différentes images IIIF peuvent être aggrégées. Ces exemples été réalisés avec les [webservices IIIF](../webservices/) de l'IRAMAT.

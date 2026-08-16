@@ -21,4 +21,6 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
-Lorem Ipsum Ipsum Ips Pis
+Les métadonnées (_metadata_) sont essentielles à la <u>réutilisabilité</u> (FAI<u>R</u>) des données de la recherche: [images](https://iramat.github.io/iramat-apps/lod/metadata/images/), objets physiques (échantillons) et numériques (ex: dépôt sur Zenodo).
+
+{{< tsvtable3 "data/metadata.tsv">}}
