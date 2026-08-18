@@ -21,6 +21,10 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
+{{< callout context="warning" title="HS" icon="outline/info-circle" >}}
+Les services web sont temporairement interrompus
+{{< /callout >}}
+
 Ces **webservices RTI** vous permettent[^1] de mettre une [RTI dans un visualiseur web interactif](./rti-loader/).
 
 

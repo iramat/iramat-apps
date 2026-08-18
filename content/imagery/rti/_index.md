@@ -20,6 +20,10 @@ params:
     startUrl: "/docs/guides/example-guide/"
 ---
 
+{{< callout context="warning" title="HS" icon="outline/info-circle" >}}
+Les services web sont temporairement interrompus
+{{< /callout >}}
+
 <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-rti-vcl.png" style="height: 30px;vertical-align: middle;"> - Le visualiseur web OpenLIME [^1] permet d' afficher et interagir avec des images RTI et d'autres formats _relightables_. 
 
 ---
