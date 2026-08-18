@@ -27,5 +27,4 @@ Les services web sont temporairement interrompus
 
 Ces **webservices IIIF** vous permettent[^1] de mettre une [image en IIIF](./iiif-loader/), ou de [superposer deux images IIIF](./iiif-compare/)
 
-
 [^1]: 👉 Contacter <thomas.huet@cnrs.fr> pour (i) avoir le **mot de passe** et (ii) créer votre **dossier-projet**.
