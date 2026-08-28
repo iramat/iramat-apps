@@ -112,15 +112,16 @@
 
 > My LOD collection
 
-- [Dispositifs](https://iramat.github.io/iramat-apps/lod/devices/): My IIIF collection
+- [Instrumentation](https://iramat.github.io/iramat-apps/lod/devices/): My IIIF collection
 - [Données](https://iramat.github.io/iramat-apps/lod/data/): My IIIF collection
 - [Métadonnées](https://iramat.github.io/iramat-apps/lod/metadata/): My IIIF collection
 
-### Dispositifs
+### Instrumentation
 
 > My IIIF collection
 
-- [Politique d'accès au duromètre](https://iramat.github.io/iramat-apps/lod/devices/durometer/)
+- [Scie de laboratoire](https://iramat.github.io/iramat-apps/lod/devices/saw/)
+- [Duromètre](https://iramat.github.io/iramat-apps/lod/devices/durometer/)
 
 ### Données
 
