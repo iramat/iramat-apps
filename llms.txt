@@ -120,8 +120,8 @@
 
 > My IIIF collection
 
-- [Scie de laboratoire](https://iramat.github.io/iramat-apps/lod/devices/saw/)
 - [Duromètre](https://iramat.github.io/iramat-apps/lod/devices/durometer/)
+- [Scie de laboratoire](https://iramat.github.io/iramat-apps/lod/devices/saw/)
 
 ### Données
 
