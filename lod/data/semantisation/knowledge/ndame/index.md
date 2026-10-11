@@ -18,4 +18,4 @@ Les noeuds du graphe sont:
   </iframe>
 </div>
 
-[^1]: La *Dataverse Search API* permet de récupérer les métdonnées des dépôts en utilisant, par exemple, un script Python ([ici](https://github.com/iramat/iramat-functions/blob/main/ndame/recherche-data-gouv-4mode.py))
+[^1]: La *Dataverse Search API* permet de récupérer les métadonnées des dépôts en utilisant, par exemple, un script Python ([ici](https://github.com/iramat/iramat-functions/blob/main/ndame/recherche-data-gouv-4mode.py))
