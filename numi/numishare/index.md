@@ -14,24 +14,14 @@ _Numishare_ est aujourd'hui largement adopté par la communauté de la recherche
 
 ### À l'IRAMAT
 
-Utilisée dans le(s) base(s) de données Numishares:
+Utilisée dans le(s) base(s) de données Numishare :
 
 * <img src="https://raw.githubusercontent.com/iramat/almacir/master/img/logo.png" style="height: 30px;vertical-align: middle;"><a href="https://iramat-apps.cnrs.fr/numishare/almacir/" target="_blank"> ALMACIR</a>
 * <img src="https://raw.githubusercontent.com/iramat/iramat-dev/main/img/logo-iramat-numishare.png" style="height: 35px;vertical-align: middle;"><a href="https://iramat-apps.cnrs.fr/numishare/demo/" target="_blank"> Demo</a>
 
-Et dans le(s) projet(s):
+Et dans le(s) projet(s) :
 
 * <img src="https://raw.githubusercontent.com/iramat/almacir/master/img/logo.png" style="height: 30px;vertical-align: middle;"><a href="https://iramat.github.io/almacir/ " target="_blank"> ANR ALMACIR</a>
-
-### Demo
-
-Une version de démonstration est accessible ici: <https://iramat-apps.cnrs.fr/numishare/demo/>
-
-<center>
-
-<img src="https://raw.githubusercontent.com/iramat/iramat-dev/main/img/bdd-numishare-demo.png" style="width:700px;vertical-align:middle">
-
-</center>
 
 [^3]: _Extensible Markup Language_, la principale extension du HTML
 [^1]: _NUmismatic Description Standard_ ou _Numismatic Database Standard_: officiellement reconnu comme le système d'organisation des connaissances préféré pour la numismatique, grâce au patronage du <a href="https://inc-cin.org/" target="_blank">Conseil numismatique international (INC-CIN)</a> en fournissant un système d'organisation des connaissances (Knowledge Organization System, KOS) fondé sur le Linked Open Data : c'est l'ensemble de noms de champs suggérés pour l'enregistrement d'informations numismatiques dans une BDD.
