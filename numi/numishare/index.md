@@ -17,6 +17,7 @@ _Numishare_ est aujourd'hui largement adopté par la communauté de la recherche
 Utilisée dans le(s) projet(s):
 
 * <img src="https://raw.githubusercontent.com/iramat/almacir/master/img/logo.png" style="height: 30px;vertical-align: middle;"><a href="https://iramat.github.io/almacir/ " target="_blank"> ALMACIR</a>
+* <img src="https://raw.githubusercontent.com/iramat/iramat-dev/main/img/logo-iramat-numishare.png" style="height: 35px;vertical-align: middle;"><a href="https://iramat-apps.cnrs.fr/numishare/demo/" target="_blank"> Demo</a>
 
 ### Demo
 
