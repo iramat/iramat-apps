@@ -2,15 +2,22 @@
 
 ## Numishare
 
-_Numishare_ est un système _open source_ de gestion de collections numismatiques (<a href="https://github.com/ewg118/numishare/" target="_blank">code source</a>, <a href="https://github.com/ewg118/numishare/wiki" target="_blank">wiki</a>), développé et maintenu par l'_American Numismatic Society_ (ANS) et plus particulièrement <a href="https://github.com/ewg118" target="_blank">Ethan Gruber</a>. Conçu pour le Web sémantique, _Numishare_ repose principalement sur les technologies suivantes :
+Système _open source_ de gestion de collections numismatiques (<a href="https://github.com/ewg118/numishare/" target="_blank">code source</a>, <a href="https://github.com/ewg118/numishare/wiki" target="_blank">wiki</a>). Numishare adopte nativement le format standard de description des monnaies NUDS[^1], le thésaurus et l'ontologie <a href="https://nomisma.org/" target="_blank">Nomisma</a> comme recommandé par la Bibliothèque Nationale de France (BnF) pour le cataloguage des monnaies[^4]. 
 
-- l'utilisation du XML[^3], tant pour pour le stockage des notices numismatiques au format NUDS[^1] que pour la configuration de l'application ;
-- Les fichiers XSLT[^2] pour un flux d'échange : XML (notices numismatiques + configuration) ↔ HTML(expérience utilisateur)
-- les technologies d'interrogation et d'échange de données XML, notamment XQuery et les API REST ;
-- l'adoption du standard NUDS ainsi que du thésaurus et de l'ontologie <a href="https://nomisma.org/" target="_blank">Nomisma</a> ;
-- la publication native de données au moyen de points d'accès SPARQL et d'API REST.
+Numishare est aujourd'hui largement adopté par la communauté de la recherche en numismatique antique et médiévale (voir la <a href="https://numismatics.org/resources/" target="_blank">liste des projets utilisant _Numishare_</a>).
 
-_Numishare_ est aujourd'hui largement adopté par la communauté de la recherche en numismatique antique et médiévale (voir la <a href="https://numismatics.org/resources/" target="_blank">liste des projets utilisant _Numishare_</a>). 
+### Historique
+
+Développé et maintenu par l'_American Numismatic Society_ (ANS) et plus particulièrement <a href="https://github.com/ewg118" target="_blank">Ethan Gruber</a>. 
+
+### Technologies
+
+Conçu pour le Web sémantique, _Numishare_ repose principalement sur les technologies suivantes :
+
+- Utilisation du XML[^3], tant pour pour le stockage des notices numismatiques que pour la configuration de l'application ;
+- Fichiers XSLT[^2] pour un flux d'échange : XML (notices numismatiques + configuration) ↔ HTML (expérience utilisateur)
+- Technologies d'interrogation et d'échange de données XML, notamment XQuery et les API REST ;
+- Publication native de données au moyen de points d'accès SPARQL et d'API REST
 
 ### À l'IRAMAT
 
@@ -24,5 +31,6 @@ Et dans le(s) projet(s) :
 * <img src="https://raw.githubusercontent.com/iramat/almacir/master/img/logo.png" style="height: 30px;vertical-align: middle;"><a href="https://iramat.github.io/almacir/ " target="_blank"> ANR ALMACIR</a>
 
 [^3]: _Extensible Markup Language_, la principale extension du HTML
-[^1]: _NUmismatic Description Standard_ ou _Numismatic Database Standard_: officiellement reconnu comme le système d'organisation des connaissances préféré pour la numismatique, grâce au patronage du <a href="https://inc-cin.org/" target="_blank">Conseil numismatique international (INC-CIN)</a> en fournissant un système d'organisation des connaissances (Knowledge Organization System, KOS) fondé sur le Linked Open Data : c'est l'ensemble de noms de champs suggérés pour l'enregistrement d'informations numismatiques dans une BDD.
+[^1]: _NUmismatic Description Standard_ ou _Numismatic Database Standard_: officiellement reconnu comme le système d'organisation des connaissances préféré pour la numismatique, grâce au patronage du <a href="https://inc-cin.org/" target="_blank">Conseil numismatique international (INC-CIN)</a> en fournissant un système d'organisation des connaissances (_Knowledge Organization System_, KOS) fondé sur le Linked Open Data : c'est l'ensemble de noms de champs suggérés pour l'enregistrement d'informations numismatiques dans une BDD.
 [^2]: _Extensible Styles Language Transform_, pour transformer des fichiers XML en HTML, HTML table, PDF, etc.
+[^4]: <https://www.bnf.fr/fr/comment-cataloguer-numeriser-et-demenager-une-collection-de-monnaies-quelques-conseils-simples>
